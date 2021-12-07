@@ -18,7 +18,7 @@
     <div class="row py-2 d-flex justify-content-between">
       {% for externalLinkIcon in site.data.externalWebsiteLinks.linkImages %}
       <div class="col align-middle text-center">
-          <a href="{{ externalLinkIcon.href }}" target="_blank" rel="noopener noreferrer"><img class="" style="max-height:140px;padding:10px;" src="/{{ externalLinkIcon.image }}" alt=""></a>
+          <a href="{{ externalLinkIcon.href }}" target="_blank" rel="noopener noreferrer"><img class="" style="max-height:140px;padding:10px;" src="{{site.baseurl}}/{{ externalLinkIcon.image }}" alt=""></a>
       </div>
       {% endfor %}
     </div>
