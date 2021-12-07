@@ -65,15 +65,11 @@ We have just launched this website. You will see our product's future updates he
 4. Commit new file.
 5. Do a PR to master and merge to automatically update the site.
 
-
----
 ## Acknowledgements
 
 This website was forked from the [changelogsite project.](https://github.com/changelogsite/changelog/)
 
----
-Contact me for sponsorship hello@bansal.io
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
