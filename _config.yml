@@ -16,7 +16,7 @@ website: https://docs.hpc.shef.ac.uk/en/latest/ # (required)
 # the base hostname & protocol for your site, 
 # e.g. https://updates.changelog.site
 # Note Don't put trailing slash https://updates.changelog.site/
-url: "https://rcgsheffield.github.io/"  # (required)
+url: "https://rcgsheffield.github.io"  # (required)
 
 baseurl: 'hpc-changelog' # optional
 
