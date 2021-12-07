@@ -69,7 +69,7 @@ We have just launched this website. You will see our product's future updates he
 ---
 ## Acknowledgements
 
-This website was forked from the[changelogsite project.](https://github.com/changelogsite/changelog/)
+This website was forked from the [changelogsite project.](https://github.com/changelogsite/changelog/)
 
 ---
 Contact me for sponsorship hello@bansal.io
