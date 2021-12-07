@@ -1,13 +1,10 @@
-<div class="row p-3">
-    <div class="col-md-3 mb-3">
-      <a href="{{ include.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-date text-muted">
-        {{ include.date | date: '%B %d, %Y' }}
-      </a>
-    </div>
+<div class="row">
     <div class="col-md-9">
+      <a href="{{ include.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-date text-muted">
       <h2 class="title">
         {{ include.title }}
       </h2>
+      </a>
       <div>
         {% if include.category %}
 
@@ -22,5 +19,10 @@
         <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
           {{ include.content }}
         </div>
+    </div>
+    <div class="col-md-3 mb-3 text-end">
+      <a href="{{ include.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-date text-muted">
+        {{ include.date | date: '%B %d, %Y' }}
+      </a>
     </div>
   </div>

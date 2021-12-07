@@ -1,5 +1,40 @@
-<footer class="p-3 text-center mt-5">
-    <div class="w-25 border-top mb-3 mx-auto"></div>
-    <a href="https://changelog.site">Powered By ChangeLog.Site</a>
-</footer>
+<div class="wd-100">
+    <footer class="navbar-fixed-bottom site-footer bg-dark shadow-sm">
+    <div class="container">
+
+    <div class="row py-2 d-flex justify-content-between">
+
+      {% for externalLink in site.data.externalWebsiteLinks.links %}
+        <div class="col d-flex justify-content-center">
+        <a class="" style="padding:5px;" href="{{ externalLink.url }}" target="_blank">{{ externalLink.title }}</a>
+        </div>
+      {% endfor %}
+
+      <div class="col d-flex justify-content-center">
+        <a class="" style="padding:5px;" href="{{ site.github.repository_url }}" target="_blank">Contribute to the site @ TUoS GitHub</a>
+      </div>
+
+    </div>
+    <div class="row py-2 d-flex justify-content-between">
+      {% for externalLinkIcon in site.data.externalWebsiteLinks.linkImages %}
+      <div class="col align-middle text-center">
+          <a href="{{ externalLinkIcon.href }}" target="_blank" rel="noopener noreferrer"><img class="" style="max-height:140px;padding:10px;" src="/{{ externalLinkIcon.image }}" alt=""></a>
+      </div>
+      {% endfor %}
+    </div>
+
+    </div>
+    
+    <div style="background-color: #191c1f;" class="wd-100 py-2 d-flex justify-content-between">
+      <div class="col align-middle text-center">
+        Copyright &copy; <a href="https://www.sheffield.ac.uk" target="_blank">The University of Sheffield</a> - <a href="https://www.sheffield.ac.uk/it-services/research" target="_blank">Research IT</a> <script>document.write(new Date().getFullYear())</script>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+</div>
 {% include scripts.html %}
