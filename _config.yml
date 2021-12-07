@@ -61,6 +61,11 @@ defaults:
     values:
       sitemap: false 
 
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
+
 
 permalink: /:title/
 markdown: kramdown

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="snippets">
+  <h1 class="snippets-heading">Changes tagged with "{{ page.tag-name }}"</h1>
+
+  {% for post in site.posts %}
+    {% if post.tags contains page.tag-name %}
+    <hr>
+    <a href="{{site.baseurl}}{{ post.url}}" class="post-date text-muted">
+      <h2 class="title">
+        {{ post.title }}
+      </h2>
+      </a>
+      <span class="category {% if color %}{{ color }}{% endif %}">{{ post.category }}</span>
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        {{ post.content }}
+      </div><br>
+    {% endif %}
+  {% endfor %}
+</div>
