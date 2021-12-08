@@ -12,7 +12,6 @@ content_type: xml
        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
        <ttl>7200</ttl>
-      
   {% for post in site.posts %}
     {% if post.tags contains page.tag-name %}
        <item>
@@ -24,6 +23,5 @@ content_type: xml
        </item>
     {% endif %}
   {% endfor %}
-      
       </channel>
       </rss>
