@@ -3,8 +3,19 @@ layout: default
 ---
 
 <div class="snippets">
-  <h1 class="snippets-heading">Changes tagged with "{{ page.tag-name }}"</h1>
-  <a href="{{site.baseurl}}/feeds/tags/{{ page.tag-name }}.xml" class="post-date text-muted">RSS Feed</a>
+  <h2 class="snippets-heading">Changes tagged with "{{ page.tag-name }}"</h2>
+  <a href="{{site.baseurl}}/feeds/tags/{{ page.tag-name }}.xml"
+    class="inline-block mt-md-0 text-orange d-flex align-items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 22" fill="none"
+      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-rss">
+      <path d="M4 11a9 9 0 0 1 9 9"></path>
+      <path d="M4 4a16 16 0 0 1 16 16"></path>
+      <circle cx="5" cy="19" r="1"></circle>
+    </svg>
+    <div class="text-primary px-2">Tag specific RSS feed</div>
+  </a>
+  <a href="{{site.baseurl}}/feeds/tags/{{ page.tag-name }}.xml" class="post-date text-muted"></a>
 
   {% for post in site.posts %}
     {% if post.tags contains page.tag-name %}
@@ -14,7 +25,38 @@ layout: default
         {{ post.title }}
       </h2>
       </a>
-      <span class="category {% if color %}{{ color }}{% endif %}">{{ post.category }}</span>
+      Type: 
+        {% if post.category %}
+
+          {% for category in site.data.categories %}
+          {% if category.name == post.category %}
+          {% assign color = category.color | downcase | prepend: 'bg-' %}
+          {% endif %}
+          {% endfor %}
+          <span class="category {% if color %}{{ color }}{% endif %}">{{ post.category }}</span></br>
+        {% endif %}
+      {% comment %}
+      {% Get the tag from the post or the page depending on whether this is in a page or a post. %}
+      {% endcomment %}
+
+      Tags:
+      {% for tag in post.tags %}
+      {% assign tag_slug = tag | slugify: "raw" %}
+      <a class="tag-link"
+        href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+        rel="category tag">
+        #{{ tag }} 
+      </a>
+      {% endfor %}
+
+      {% for tag in page.tags %}
+      {% assign tag_slug = tag | slugify: "raw" %}
+      <a class="tag-link"
+        href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+        rel="category tag">
+        #{{ tag }} 
+      </a>
+      {% endfor %}
       <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
         {{ post.content }}
       </div><br>

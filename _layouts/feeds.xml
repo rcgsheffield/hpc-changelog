@@ -6,8 +6,8 @@ content_type: xml
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>{{ site.title }}</title>
-       <description>{{ site.description }}</description>
+       <title>{{ site.title }} | Tag Feed: "{{page.tag-name}}"</title>
+       <description>HPC Changelog recent changes for tag:"{{page.tag-name}}" </description>
        <link>{{ site.url }}</link>
        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>

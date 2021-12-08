@@ -1,9 +1,9 @@
 <div class="row">
     <div class="col-md-9 category-{{ include.category }}">
       <a href="{{ include.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-date text-muted">
-      <h2 class="title">
+      <h3 class="title">
         {{ include.title }}
-      </h2>
+      </h3>
       </a>
       <div>Type: 
         {% if include.category %}
@@ -16,15 +16,29 @@
           <span class="category {% if color %}{{ color }}{% endif %}">{{ include.category }}</span>
         {% endif %}
       </div>
+{% comment %}
+{% Get the tag from the post or the page depending on whether this is in a page or a post. %}
+{% endcomment %}
+
       Tags:
       {% for tag in post.tags %}
-  {% assign tag_slug = tag | slugify: "raw" %}
-  <a class="tag-link"
-    href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
-    rel="category tag">
-    #{{ tag }} 
-  </a>
-{% endfor %}
+      {% assign tag_slug = tag | slugify: "raw" %}
+      <a class="tag-link"
+        href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+        rel="category tag">
+        #{{ tag }} 
+      </a>
+      {% endfor %}
+
+      {% for tag in page.tags %}
+      {% assign tag_slug = tag | slugify: "raw" %}
+      <a class="tag-link"
+        href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+        rel="category tag">
+        #{{ tag }} 
+      </a>
+      {% endfor %}
+
         <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
           {{ include.content }}
         </div>
@@ -35,3 +49,5 @@
       </a>
     </div>
   </div>
+
+  {{ include.tags }}
