@@ -65,6 +65,9 @@ collections:
   tags:
     output: true
     permalink: tags/:path/
+  feeds:
+    output: true
+    permalink: feeds/:path/
 
 
 permalink: /:title/

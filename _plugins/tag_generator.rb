@@ -13,4 +13,12 @@ Jekyll::Hooks.register :posts, :post_write do |post|
     File.open("_tags/#{tag}.md", "wb") do |file|
     file << "---\nlayout: tags\ntag-name: #{tag}\n---\n"
     end
+
+    File.open("_feeds/#{tag}.md", "wb") do |file|
+    file << %{---
+layout: feeds
+tag-name: #{tag}
+---
+}
+    end
   end
