@@ -60,6 +60,12 @@ defaults:
       path: "assets"
     values:
       sitemap: false 
+  -
+    scope:
+      path: "feeds"
+    values:
+      sitemap: false 
+
 
 collections:
   tags:
