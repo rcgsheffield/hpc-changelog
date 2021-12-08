@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog</title>
-       <description>Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.</description>
+       <title>TUoS HPC Changelog | Tag Feed: "web"</title>
+       <description>HPC Changelog recent changes for tag:"web" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 08 Dec 2021 16:50:06 +0000</lastBuildDate>
-       <pubDate>Wed, 08 Dec 2021 16:50:06 +0000</pubDate>
+       <lastBuildDate>Wed, 08 Dec 2021 17:33:43 +0000</lastBuildDate>
+       <pubDate>Wed, 08 Dec 2021 17:33:43 +0000</pubDate>
        <ttl>7200</ttl>
   
     
