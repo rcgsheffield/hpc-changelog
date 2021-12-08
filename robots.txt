@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+
+
+User-agent: *
+Disallow: /admin
+
+Sitemap: https://rcgsheffield.github.io/sitemap.xml
