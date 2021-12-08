@@ -1,6 +1,7 @@
 ---
 title:  "Welcome to Changelog2"
 category: Bug
+tags: bug ansys jekyll
 ---
 We have just launched this website. You will see our product's future updates here.
 1. Subscribe our email.
