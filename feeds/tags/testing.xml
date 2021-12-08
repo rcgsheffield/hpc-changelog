@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+      <rss version="2.0">
+      <channel>
+       <title>TUoS HPC Changelog</title>
+       <description>Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.</description>
+       <link>https://rcgsheffield.github.io</link>
+       <lastBuildDate>Wed, 08 Dec 2021 16:48:38 +0000</lastBuildDate>
+       <pubDate>Wed, 08 Dec 2021 16:48:38 +0000</pubDate>
+       <ttl>7200</ttl>
+  
+    
+       <item>
+        <title>Welcome to Changelog3</title>
+        <description></description>
+        <link>https://rcgsheffield.github.io/hpc-changelog/welcome-to-changelog3/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/welcome-to-changelog3/</guid>
+        <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+       </item>
+    
+  
+    
+  
+    
+  
+      </channel>
+      </rss>
