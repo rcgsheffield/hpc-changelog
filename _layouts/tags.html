@@ -33,7 +33,9 @@ layout: default
           {% assign color = category.color | downcase | prepend: 'bg-' %}
           {% endif %}
           {% endfor %}
-          <span class="category {% if color %}{{ color }}{% endif %}">{{ post.category }}</span></br>
+          <a style="text-decoration: none;" class="category-link" href={{ site.baseurl | append: "/category/" }}{{ post.category | downcase }} rel="category">
+          <span class="category {% if color %}{{ color }}{% endif %}">{{ post.category }}</span>        
+          </a></br>
         {% endif %}
       {% comment %}
       {% Get the tag from the post or the page depending on whether this is in a page or a post. %}
