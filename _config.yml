@@ -72,7 +72,6 @@ collections:
     output: true
     permalink: tags/:path/
 
-
 permalink: /:title/
 markdown: kramdown
 highlighter: rouge
@@ -82,6 +81,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-archives
   
 remote_theme: jonaharagon/jekyll-bootstrap-theme
 
@@ -92,3 +92,20 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+    - categories
+  layouts:
+    year: archive-years
+    month: archive-months
+    day: archive-days
+    category: archive-categories
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    category: '/category/:name/'
