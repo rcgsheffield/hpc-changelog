@@ -13,7 +13,9 @@
           {% assign color = category.color | downcase | prepend: 'bg-' %}
           {% endif %}
           {% endfor %}
-          <span class="category {% if color %}{{ color }}{% endif %}">{{ include.category }}</span>
+          <a style="text-decoration: none;" class="category-link" href={{ site.baseurl | append: "/category/" }}{{ include.category | downcase }} rel="category">
+          <span class="category {% if color %}{{ color }}{% endif %}">{{ include.category }}</span>        
+          </a>
         {% endif %}
       </div>
 {% comment %}
