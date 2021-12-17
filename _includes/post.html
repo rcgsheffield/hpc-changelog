@@ -44,7 +44,7 @@
         </div>
     </div>
     <div class="col-md-2 mb-2 text-end">
-      <a href="{{ site.baseurl | append: include.date | date: '%Y/%m/%d' }}" class="post-date text-muted">
+      <a href="{{ site.baseurl | append: "/" }}{{ include.date | date: '%Y/%m/%d' }}" class="post-date text-muted">
         {{ include.date | date: '%B %d, %Y' }}
       </a>
     </div>
