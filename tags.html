@@ -6,7 +6,7 @@ layout: default
   <ul>
     {% assign tags = site.posts | all_tags %}
     {% for tag in tags %}
-      {% assign tag_slug = tag['name'] | slugify: "raw" %}
+      {% assign tag_slug = tag['name'] %}
       <li>
         <a class="tag-link"
           href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
