@@ -25,12 +25,12 @@
       Tags:
       {% for tag in post.tags %}
       {% assign tag_slug = tag | slugify: "raw" %}
-      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>&nbsp;
+      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>
       {% endfor %}
 
       {% for tag in page.tags %}
       {% assign tag_slug = tag | slugify: "raw" %}
-      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>&nbsp;
+      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>
       {% endfor %}
 
         <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">

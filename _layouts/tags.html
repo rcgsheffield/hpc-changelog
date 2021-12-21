@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="snippets">
+<div style="margin-top:10px;margin-bottom:10px;" class="snippets">
   <h2 class="snippets-heading">Changes tagged with "{{ page.tag-name }}"</h2>
   <a href="{{site.baseurl}}/feeds/tags/{{ page.tag-name }}.xml"
     class="inline-block mt-md-0 text-orange d-flex align-items-center">
@@ -16,10 +16,13 @@ layout: default
     <div class="text-primary px-2">Tag specific RSS feed</div>
   </a>
   <a href="{{site.baseurl}}/feeds/tags/{{ page.tag-name }}.xml" class="post-date text-muted"></a>
+</div>
 
+<div class="row">
   {% for post in site.posts %}
     {% if post.tags contains page.tag-name %}
     <hr>
+    <div class="col-md-10 category-{{ post.category }}">
     <a href="{{site.baseurl}}{{ post.url}}" class="post-date text-muted">
       <h2 class="title">
         {{ post.title }}
@@ -44,16 +47,27 @@ layout: default
       Tags:
       {% for tag in post.tags %}
       {% assign tag_slug = tag | slugify: "raw" %}
-      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>&nbsp;
+      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>
       {% endfor %}
 
       {% for tag in page.tags %}
       {% assign tag_slug = tag | slugify: "raw" %}
-      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>&nbsp;
+      <a class="tag-link" href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }} rel="category tag">#{{ tag }}</a>
       {% endfor %}
       <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
         {{ post.content }}
       </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="{{ site.baseurl | append: "/" }}{{ post.date | date: '%Y/%m/%d' }}" class="post-date text-muted">
+          {{ post.date | date: '%B %d, %Y' }}
+        </a>
+      </div>
     {% endif %}
   {% endfor %}
+
+
+  
 </div>
