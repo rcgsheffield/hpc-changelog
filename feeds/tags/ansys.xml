@@ -4,27 +4,29 @@
        <title>TUoS HPC Changelog | Tag Feed: "ansys"</title>
        <description>HPC Changelog recent changes for tag:"ansys" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Tue, 21 Dec 2021 11:39:50 +0000</lastBuildDate>
-       <pubDate>Tue, 21 Dec 2021 11:39:50 +0000</pubDate>
+       <lastBuildDate>Tue, 21 Dec 2021 12:48:26 +0000</lastBuildDate>
+       <pubDate>Tue, 21 Dec 2021 12:48:26 +0000</pubDate>
        <ttl>7200</ttl>
   
     
+  
+    
        <item>
-        <title>Welcome to Changelog3</title>
+        <title>Example Post 2</title>
         <description></description>
-        <link>https://rcgsheffield.github.io/hpc-changelog/welcome-to-changelog3/</link>
-        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/welcome-to-changelog3/</guid>
-        <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://rcgsheffield.github.io/hpc-changelog/Example-post2/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/Example-post2/</guid>
+        <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
        </item>
     
   
     
        <item>
-        <title>Welcome to Changelog2</title>
+        <title>Example Post 1</title>
         <description></description>
-        <link>https://rcgsheffield.github.io/hpc-changelog/welcome-to-changelog2/</link>
-        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/welcome-to-changelog2/</guid>
-        <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://rcgsheffield.github.io/hpc-changelog/Example-post1/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/Example-post1/</guid>
+        <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
        </item>
     
   
