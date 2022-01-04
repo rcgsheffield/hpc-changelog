@@ -1,4 +1,4 @@
-Jekyll::Hooks.register :posts, :post_write do |post|
+Jekyll::Hooks.register :posts, :pre_render do |post|
     all_existing_tags = Dir.entries("_tags")
       .map { |t| t.match(/(.*).md/) }
       .compact.map { |m| m[1] }
