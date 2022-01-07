@@ -4,9 +4,19 @@
        <title>TUoS HPC Changelog | Tag Feed: "software"</title>
        <description>HPC Changelog recent changes for tag:"software" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 05 Jan 2022 13:31:32 +0000</lastBuildDate>
-       <pubDate>Wed, 05 Jan 2022 13:31:32 +0000</pubDate>
+       <lastBuildDate>Fri, 07 Jan 2022 13:27:11 +0000</lastBuildDate>
+       <pubDate>Fri, 07 Jan 2022 13:27:11 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title>New software installed: ncdu 1.15.1</title>
+        <description></description>
+        <link>https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</guid>
+        <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
        <item>
