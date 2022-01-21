@@ -29,6 +29,17 @@
 	max-width: 1320px;
 }
 
+   .header-tag-container{
+      position: relative; 
+      min-width: 250px;
+   }
+
+   .go-to-middle-vert{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   }
+
    .logo {
    padding: 0px;
    max-width: 220px;
