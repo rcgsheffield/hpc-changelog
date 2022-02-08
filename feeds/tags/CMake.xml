@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+      <rss version="2.0">
+      <channel>
+       <title>TUoS HPC Changelog | Tag Feed: "CMake"</title>
+       <description>HPC Changelog recent changes for tag:"CMake" </description>
+       <link>https://rcgsheffield.github.io</link>
+       <lastBuildDate>Tue, 08 Feb 2022 15:29:14 +0000</lastBuildDate>
+       <pubDate>Tue, 08 Feb 2022 15:29:14 +0000</pubDate>
+       <ttl>7200</ttl>
+  
+    
+       <item>
+        <title>Software rebuild with gcc-10.1: CMake-3.17.1 & Make 4.3</title>
+        <description></description>
+        <link>https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</guid>
+        <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+       </item>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+      </channel>
+      </rss>
