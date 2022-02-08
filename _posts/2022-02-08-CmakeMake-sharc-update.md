@@ -1,7 +1,7 @@
 ---
 title:  "Software rebuild with gcc-10.1: CMake-3.17.1 & Make 4.3"
 category: New
-tags: CMake & Make software ShARC
+tags: CMake Make software ShARC
 ---
 
 The softwares CMake & Make have been rebuilt using gcc-10.1 on ShARC. CMake & Make are build tools commonly used when compiling other libraries.
