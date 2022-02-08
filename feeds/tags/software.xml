@@ -4,10 +4,18 @@
        <title>TUoS HPC Changelog | Tag Feed: "software"</title>
        <description>HPC Changelog recent changes for tag:"software" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Tue, 08 Feb 2022 11:48:38 +0000</lastBuildDate>
-       <pubDate>Tue, 08 Feb 2022 11:48:38 +0000</pubDate>
+       <lastBuildDate>Tue, 08 Feb 2022 13:01:55 +0000</lastBuildDate>
+       <pubDate>Tue, 08 Feb 2022 13:01:55 +0000</pubDate>
        <ttl>7200</ttl>
   
+    
+       <item>
+        <title>Software rebuild with gcc-10.1: CMake-3.17.1 & Make 4.3</title>
+        <description></description>
+        <link>https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</guid>
+        <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+       </item>
     
   
     
