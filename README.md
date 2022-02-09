@@ -14,7 +14,7 @@ The website uses the Jekyll website building engine and follows the general Jeky
 * Adjustments to the theme / page can be made by editing both ``_layouts/``,  ``__sass/_custom-styles.scss `` and ``_sass/_custom-variables.scss`` files.
 * Adjustments to the head, header and footer etc... can be made in the ``_includes`` subdirectory.
 * Please add assets such as CSS, JS or images in the appropriate subdirectory of ``assets``.
-* Other configuration files control aspects of the Jekyll generation of pages e.g. ``Gemfile`` ``_config.yml`` and files in the ``_sass`` folder.
+* Other configuration files control aspects of the Jekyll generation of pages e.g. ``Gemfile``, ``_config.yml`` and files in the ``_sass`` folder.
 
 ## How to build the website
 
@@ -37,6 +37,12 @@ gem install jekyll bundler
 bundle install
 ```
 
+* Have Jekyll build the site:
+
+```
+bundle exec jekyll build
+```
+
 * Have Jekyll autobuild as you make changes:
 
 ```
@@ -50,20 +56,35 @@ http://127.0.0.1:4000
 
 ## Publish new Posts
 1. Create new file under `_posts` folder
-2. File Name should be like yyyy-mm-dd-feature-name.md (See [This](https://github.com/changelogsite/changelog/blob/master/_posts/2019-04-30-welcome-to-changelog.md) file for reference )
-3. Add the post content like this:
+2. File Name should be like yyyy-mm-dd-feature-name.md (e.g. 2022-02-01-docs-update-file-transfer.md)
+3. Add the post content like this (Markdown format):
 ```
 ---
-title:  "Welcome to Changelog"
+title:  "Major HPC documentation update: New file transfer guidance added!"
 category: New
+tags: documentation update sharc bessemer
 ---
-We have just launched this website. You will see our product's future updates here.
-1. Subscribe our email.
-2. Watch on Github (If you are developer)
-3. Subscribe our [RSS feed](/feed.xml).
+
+A major update to the HPC documentation has been made covering the process of 
+making file transfers to or from the HPC clusters.
+
+The new guidance can now be found at:
+
+[https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html)
 ```
 4. Commit new file.
 5. Do a PR to master and merge to automatically update the site.
+
+
+## Adding new tags
+
+If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the required 
+ancilliary files required to generate a tag page and a tag XML feed **HOWEVER** you must run the build command at 
+least twice and make sure you commit the automatically generated files.
+
+If you fail to do this, due to an unresolved bug with the Jekyll hooks that do this auto generation, the CI/CD process 
+on Github will not generate these for you and will make a website displaying broken links.
+
 
 ## Acknowledgements
 
