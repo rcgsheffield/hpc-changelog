@@ -6,8 +6,8 @@ content_type: xml
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>{{ site.title }} | Tag Feed: "{{page.tag-name}}"</title>
-       <description>HPC Changelog recent changes for tag:"{{page.tag-name}}" </description>
+       <title>{{ site.title | markdownify }} | Tag Feed: "{{page.tag-name | markdownify}}"</title>
+       <description>HPC Changelog recent changes for tag:"{{page.tag-name | markdownify}}" </description>
        <link>{{ site.url }}</link>
        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
@@ -15,8 +15,8 @@ content_type: xml
   {% for post in site.posts %}
     {% if post.tags contains page.tag-name %}
        <item>
-        <title>{{ post.title }}</title>
-        <description>{{ post.description }}</description>
+        <title>{{ post.title | markdownify }}</title>
+        <description>{{ post.description | markdownify }}</description>
         <link>{{ site.url }}{{site.baseurl }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{site.baseurl }}{{ post.url }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
