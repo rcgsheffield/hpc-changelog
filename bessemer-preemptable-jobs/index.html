@@ -5,21 +5,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3 | TUoS HPC Changelog</title>
+<title>Bessemer Slurm config change: enabled pre-emptable jobs | TUoS HPC Changelog</title>
 <meta name="generator" content="Jekyll v4.2.1" />
-<meta property="og:title" content="Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3" />
+<meta property="og:title" content="Bessemer Slurm config change: enabled pre-emptable jobs" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The softwares CMake &amp; Make have been rebuilt using gcc-10.1 on ShARC. CMake &amp; Make are build tools commonly used when compiling other libraries." />
-<meta property="og:description" content="The softwares CMake &amp; Make have been rebuilt using gcc-10.1 on ShARC. CMake &amp; Make are build tools commonly used when compiling other libraries." />
+<meta name="description" content="Users can submit pre-emptable jobs to make use of idle CPUs and/or GPUs in private nodes in Bessemer. If the owners of those private nodes then submit jobs that require those resources to run then the pre-emptable jobs will be cancelled." />
+<meta property="og:description" content="Users can submit pre-emptable jobs to make use of idle CPUs and/or GPUs in private nodes in Bessemer. If the owners of those private nodes then submit jobs that require those resources to run then the pre-emptable jobs will be cancelled." />
 <link rel="canonical" href="https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/" />
 <meta property="og:url" content="https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-02-09T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3" />
+<meta property="twitter:title" content="Bessemer Slurm config change: enabled pre-emptable jobs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-09T00:00:00+00:00","datePublished":"2022-02-09T00:00:00+00:00","description":"The softwares CMake &amp; Make have been rebuilt using gcc-10.1 on ShARC. CMake &amp; Make are build tools commonly used when compiling other libraries.","headline":"Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3","mainEntityOfPage":{"@type":"WebPage","@id":"https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://rcgsheffield.github.io/hpc-changelog/assets/img/Tuos-Logo.jpg"}},"url":"https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-09T00:00:00+00:00","datePublished":"2022-02-09T00:00:00+00:00","description":"Users can submit pre-emptable jobs to make use of idle CPUs and/or GPUs in private nodes in Bessemer. If the owners of those private nodes then submit jobs that require those resources to run then the pre-emptable jobs will be cancelled.","headline":"Bessemer Slurm config change: enabled pre-emptable jobs","mainEntityOfPage":{"@type":"WebPage","@id":"https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://rcgsheffield.github.io/hpc-changelog/assets/img/Tuos-Logo.jpg"}},"url":"https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/hpc-changelog/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/hpc-changelog/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="https://rcgsheffield.github.io/hpc-changelog/feed.xml" title="TUoS HPC Changelog" />
@@ -110,7 +110,7 @@
     <div class="col-md-10 category-New">
       
       <h3 class="title">
-        <a href="/hpc-changelog/bessemer-preemptable-jobs/" class="post-date text-muted">Software rebuild with gcc-10.1: CMake-3.17.1 & Make 4.3</a>
+        <a href="/hpc-changelog/bessemer-preemptable-jobs/" class="post-date text-muted">Bessemer Slurm config change: enabled pre-emptable jobs</a>
       </h3>
       
       <div>Type: 
@@ -129,26 +129,19 @@
 
       
       
-      <a class="tag-link" href=/hpc-changelog/tags/CMake/ rel="category tag">#CMake</a>
+      <a class="tag-link" href=/hpc-changelog/tags/Bessemer/ rel="category tag">#Bessemer</a>
       
       
-      <a class="tag-link" href=/hpc-changelog/tags/Make/ rel="category tag">#Make</a>
+      <a class="tag-link" href=/hpc-changelog/tags/Slurm/ rel="category tag">#Slurm</a>
       
       
-      <a class="tag-link" href=/hpc-changelog/tags/software/ rel="category tag">#software</a>
-      
-      
-      <a class="tag-link" href=/hpc-changelog/tags/ShARC/ rel="category tag">#ShARC</a>
+      <a class="tag-link" href=/hpc-changelog/tags/pre-emptable/ rel="category tag">#pre-emptable</a>
       
 
         <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>The softwares CMake &amp; Make have been rebuilt using gcc-10.1 on ShARC. CMake &amp; Make are build tools commonly used when compiling other libraries.</p>
+          <p>Users can submit <em>pre-emptable</em> jobs to make use of idle CPUs and/or GPUs in private nodes in Bessemer.  If the owners of those private nodes then submit jobs that require those resources to run then the pre-emptable jobs will be cancelled.</p>
 
-<p>The documentation for the usage of this software can now be found at:</p>
-
-<ul>
-  <li><a href="https://docs.hpc.shef.ac.uk/en/latest/sharc/software/development/cmake.html">https://docs.hpc.shef.ac.uk/en/latest/sharc/software/development/cmake.html</a></li>
-</ul>
+<p>More information: <a href="https://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html#pre-emptable-jobs">https://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html#pre-emptable-jobs</a></p>
 
         </div>
     </div>

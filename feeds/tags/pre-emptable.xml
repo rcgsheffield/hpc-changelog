@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>ShARC</p>
+ | Tag Feed: "<p>pre-emptable</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>ShARC</p>
+       <description>HPC Changelog recent changes for tag:"<p>pre-emptable</p>
 " </description>
        <link>https://rcgsheffield.github.io</link>
        <lastBuildDate>Wed, 09 Feb 2022 14:45:50 +0000</lastBuildDate>
@@ -12,17 +12,17 @@
        <ttl>7200</ttl>
   
     
-  
-    
        <item>
-        <title><p>Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3</p>
+        <title><p>Bessemer Slurm config change: enabled pre-emptable jobs</p>
 </title>
         <description>
 </description>
-        <link>https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</link>
-        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</guid>
-        <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+        <link>https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/</link>
+        <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/bessemer-preemptable-jobs/</guid>
+        <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
     
   
     
