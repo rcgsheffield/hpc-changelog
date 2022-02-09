@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog | Tag Feed: "ncdu"</title>
-       <description>HPC Changelog recent changes for tag:"ncdu" </description>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>ncdu</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>ncdu</p>
+" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 12:37:41 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 12:37:41 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 13:04:05 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 13:04:05 +0000</pubDate>
        <ttl>7200</ttl>
   
     
@@ -18,8 +21,10 @@
   
     
        <item>
-        <title>New software installed: ncdu 1.15.1</title>
-        <description></description>
+        <title><p>New software installed: ncdu 1.15.1</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</guid>
         <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>

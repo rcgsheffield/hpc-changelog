@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog | Tag Feed: "NetLogo"</title>
-       <description>HPC Changelog recent changes for tag:"NetLogo" </description>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>NetLogo</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>NetLogo</p>
+" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 12:37:41 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 12:37:41 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 13:04:05 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 13:04:05 +0000</pubDate>
        <ttl>7200</ttl>
   
     
@@ -14,8 +17,10 @@
   
     
        <item>
-        <title>New software installed: NetLogo 6.2.0</title>
-        <description></description>
+        <title><p>New software installed: NetLogo 6.2.0</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/NetLogo-bessemer/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/NetLogo-bessemer/</guid>
         <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>

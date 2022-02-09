@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog | Tag Feed: "sharc"</title>
-       <description>HPC Changelog recent changes for tag:"sharc" </description>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>sharc</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>sharc</p>
+" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 12:37:41 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 12:37:41 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 13:04:05 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 13:04:05 +0000</pubDate>
        <ttl>7200</ttl>
   
     
   
     
        <item>
-        <title>Major HPC documentation update: New file transfer guidance added!</title>
-        <description></description>
+        <title><p>Major HPC documentation update: New file transfer guidance added!</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/docs-update-file-transfer/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/docs-update-file-transfer/</guid>
         <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
@@ -24,8 +29,10 @@
   
     
        <item>
-        <title>Major HPC documentation update: New software installation guidance added!</title>
-        <description></description>
+        <title><p>Major HPC documentation update: New software installation guidance added!</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/docs-update-install-instructions/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/docs-update-install-instructions/</guid>
         <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
@@ -34,8 +41,10 @@
   
     
        <item>
-        <title>New software installed: ncdu 1.15.1</title>
-        <description></description>
+        <title><p>New software installed: ncdu 1.15.1</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</guid>
         <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>

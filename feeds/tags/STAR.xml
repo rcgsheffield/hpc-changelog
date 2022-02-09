@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog | Tag Feed: "STAR"</title>
-       <description>HPC Changelog recent changes for tag:"STAR" </description>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>STAR</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>STAR</p>
+" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 12:37:41 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 12:37:41 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 13:04:05 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 13:04:05 +0000</pubDate>
        <ttl>7200</ttl>
   
     
@@ -22,8 +25,10 @@
   
     
        <item>
-        <title>New software installed: STAR 2.7.6a</title>
-        <description></description>
+        <title><p>New software installed: STAR 2.7.6a</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/STAR-bessemer-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/STAR-bessemer-install/</guid>
         <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>

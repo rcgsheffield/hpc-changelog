@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog | Tag Feed: "software"</title>
-       <description>HPC Changelog recent changes for tag:"software" </description>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>software</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>software</p>
+" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 12:37:41 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 12:37:41 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 13:04:05 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 13:04:05 +0000</pubDate>
        <ttl>7200</ttl>
   
     
        <item>
-        <title>Software rebuild with gcc-10.1: CMake-3.17.1 & Make 4.3</title>
-        <description></description>
+        <title><p>Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/CmakeMake-sharc-update/</guid>
         <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
@@ -22,8 +27,10 @@
   
     
        <item>
-        <title>New software installed: NetLogo 6.2.0</title>
-        <description></description>
+        <title><p>New software installed: NetLogo 6.2.0</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/NetLogo-bessemer/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/NetLogo-bessemer/</guid>
         <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
@@ -34,8 +41,10 @@
   
     
        <item>
-        <title>New software installed: ncdu 1.15.1</title>
-        <description></description>
+        <title><p>New software installed: ncdu 1.15.1</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/ncdu-bessemer-sharc-install/</guid>
         <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
@@ -44,8 +53,10 @@
   
     
        <item>
-        <title>New software installed: Bowtie2 2.3.4.2</title>
-        <description></description>
+        <title><p>New software installed: Bowtie2 2.3.4.2</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/Bowtie2-bessemer-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/Bowtie2-bessemer-install/</guid>
         <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
@@ -54,8 +65,10 @@
   
     
        <item>
-        <title>New software installed: STAR 2.7.6a</title>
-        <description></description>
+        <title><p>New software installed: STAR 2.7.6a</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/STAR-bessemer-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/STAR-bessemer-install/</guid>
         <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>

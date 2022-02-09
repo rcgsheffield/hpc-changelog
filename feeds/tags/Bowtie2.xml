@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
       <rss version="2.0">
       <channel>
-       <title>TUoS HPC Changelog | Tag Feed: "Bowtie2"</title>
-       <description>HPC Changelog recent changes for tag:"Bowtie2" </description>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>Bowtie2</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>Bowtie2</p>
+" </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 12:37:41 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 12:37:41 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 13:04:05 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 13:04:05 +0000</pubDate>
        <ttl>7200</ttl>
   
     
@@ -20,8 +23,10 @@
   
     
        <item>
-        <title>New software installed: Bowtie2 2.3.4.2</title>
-        <description></description>
+        <title><p>New software installed: Bowtie2 2.3.4.2</p>
+</title>
+        <description>
+</description>
         <link>https://rcgsheffield.github.io/hpc-changelog/Bowtie2-bessemer-install/</link>
         <guid isPermaLink="true">https://rcgsheffield.github.io/hpc-changelog/Bowtie2-bessemer-install/</guid>
         <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
