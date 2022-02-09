@@ -16,6 +16,8 @@ The website uses the Jekyll website building engine and follows the general Jeky
 * Please add assets such as CSS, JS or images in the appropriate subdirectory of ``assets``.
 * Other configuration files control aspects of the Jekyll generation of pages e.g. ``Gemfile``, ``_config.yml`` and files in the ``_sass`` folder.
 
+-----
+
 ## How to build the website
 
 * Install Jekyll - https://jekyllrb.com/docs/installation/
@@ -53,8 +55,9 @@ bundle exec jekyll serve --incremental
 
 http://127.0.0.1:4000
 
+-----
 
-## Publish new Posts
+## Publishing new Posts
 1. Create new file under `_posts` folder
 2. File Name should be like yyyy-mm-dd-feature-name.md (e.g. 2022-02-01-docs-update-file-transfer.md)
 3. Add the post content like this (Markdown format):
@@ -75,6 +78,7 @@ The new guidance can now be found at:
 4. Commit new file.
 5. Do a PR to master and merge to automatically update the site.
 
+-----
 
 ## Adding new tags
 
@@ -85,11 +89,13 @@ least twice and make sure you commit the automatically generated files.
 If you fail to do this, due to an unresolved bug with the Jekyll hooks that do this auto generation, the CI/CD process 
 on Github will not generate these for you and will make a website displaying broken links.
 
+-----
 
 ## Acknowledgements
 
 This website was forked from the [changelogsite project.](https://github.com/changelogsite/changelog/)
 
+-----
 
 ## License
 
