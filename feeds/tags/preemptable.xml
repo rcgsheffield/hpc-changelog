@@ -2,18 +2,18 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>pre-emptable</p>
+ | Tag Feed: "<p>preemptable</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>pre-emptable</p>
+       <description>HPC Changelog recent changes for tag:"<p>preemptable</p>
 " </description>
        <link>https://rcgsheffield.github.io</link>
-       <lastBuildDate>Wed, 09 Feb 2022 14:45:50 +0000</lastBuildDate>
-       <pubDate>Wed, 09 Feb 2022 14:45:50 +0000</pubDate>
+       <lastBuildDate>Wed, 09 Feb 2022 15:09:10 +0000</lastBuildDate>
+       <pubDate>Wed, 09 Feb 2022 15:09:10 +0000</pubDate>
        <ttl>7200</ttl>
   
     
        <item>
-        <title><p>Bessemer Slurm config change: enabled pre-emptable jobs</p>
+        <title><p>Bessemer Slurm config change: enabled preemptable jobs</p>
 </title>
         <description>
 </description>
