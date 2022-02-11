@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>CMake</p>
+ | Tag Feed: "<p>MATLAB</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>CMake</p>
+       <description>HPC Changelog recent changes for tag:"<p>MATLAB</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
        <lastBuildDate>Fri, 11 Feb 2022 16:44:57 +0000</lastBuildDate>
@@ -12,19 +12,19 @@
        <ttl>7200</ttl>
   
     
-  
-    
-  
-    
        <item>
-        <title><p>Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3</p>
+        <title><p>New software version installed: MATLAB 2021b</p>
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//CmakeMake-sharc-update/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//CmakeMake-sharc-update/</guid>
-        <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+        <link>http://changelog.hpc.shef.ac.uk//matlab-bessemer-sharc-new-version/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//matlab-bessemer-sharc-new-version/</guid>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
+    
+  
     
   
     
