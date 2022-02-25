@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>GPUs</p>
+ | Tag Feed: "<p>GPU</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>GPUs</p>
+       <description>HPC Changelog recent changes for tag:"<p>GPU</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
        <lastBuildDate>Fri, 25 Feb 2022 13:08:54 +0000</lastBuildDate>
@@ -12,21 +12,21 @@
        <ttl>7200</ttl>
   
     
-  
-    
-  
-    
-  
-    
        <item>
-        <title><p>bessemer-node026 (public GPU node) returned to service</p>
+        <title><p>bessemer-node026 and bessemer-node058: unexpected reboots / GPU driver upgrade</p>
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//bessemer-node026-ret2svc/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-node026-ret2svc/</guid>
-        <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</guid>
+        <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
+    
+  
+    
+  
     
   
     
