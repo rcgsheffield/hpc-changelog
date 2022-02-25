@@ -7,9 +7,11 @@
        <description>HPC Changelog recent changes for tag:"<p>CUDA</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Wed, 16 Feb 2022 16:43:39 +0000</lastBuildDate>
-       <pubDate>Wed, 16 Feb 2022 16:43:39 +0000</pubDate>
+       <lastBuildDate>Fri, 25 Feb 2022 12:58:56 +0000</lastBuildDate>
+       <pubDate>Fri, 25 Feb 2022 12:58:56 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
   
     
        <item>
@@ -21,6 +23,8 @@
         <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//CUDA-cuDNN-bessemer-new-versions/</guid>
         <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
     
   
     

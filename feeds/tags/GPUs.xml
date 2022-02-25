@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+      <rss version="2.0">
+      <channel>
+       <title><p>TUoS HPC Changelog</p>
+ | Tag Feed: "<p>GPUs</p>
+"</title>
+       <description>HPC Changelog recent changes for tag:"<p>GPUs</p>
+" </description>
+       <link>http://changelog.hpc.shef.ac.uk/</link>
+       <lastBuildDate>Fri, 25 Feb 2022 12:58:56 +0000</lastBuildDate>
+       <pubDate>Fri, 25 Feb 2022 12:58:56 +0000</pubDate>
+       <ttl>7200</ttl>
+  
+    
+  
+    
+  
+    
+  
+    
+       <item>
+        <title><p>bessemer-node026 (public GPU node) returned to service</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-node026-ret2svc/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-node026-ret2svc/</guid>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+       </item>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+      </channel>
+      </rss>
