@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>fault</p>
+ | Tag Feed: "<p>NAG</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>fault</p>
+       <description>HPC Changelog recent changes for tag:"<p>NAG</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
        <lastBuildDate>Tue, 08 Mar 2022 17:06:32 +0000</lastBuildDate>
@@ -12,17 +12,17 @@
        <ttl>7200</ttl>
   
     
-  
-    
        <item>
-        <title><p>bessemer-node026 and bessemer-node058: unexpected reboots / GPU driver upgrade</p>
+        <title><p>Software NAG Fortran compiler 7.1 &amp; NAG Fortran/C library nll6i273bl</p>
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</guid>
-        <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+        <link>http://changelog.hpc.shef.ac.uk//NAG-sharc-update/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NAG-sharc-update/</guid>
+        <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
     
   
     
