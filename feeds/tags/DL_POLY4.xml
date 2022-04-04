@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>Make</p>
+ | Tag Feed: "<p>DL_POLY4</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>Make</p>
+       <description>HPC Changelog recent changes for tag:"<p>DL_POLY4</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
        <lastBuildDate>Mon, 04 Apr 2022 11:24:57 +0000</lastBuildDate>
@@ -12,31 +12,31 @@
        <ttl>7200</ttl>
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
        <item>
-        <title><p>Software rebuild with gcc-10.1: CMake-3.17.1 &amp; Make 4.3</p>
+        <title><p>New software installed: DL_POLY4 and PLUMED</p>
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//CmakeMake-sharc-update/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//CmakeMake-sharc-update/</guid>
-        <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+        <link>http://changelog.hpc.shef.ac.uk//DL_POLY4_PLUMED-bessemer-install-copy/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//DL_POLY4_PLUMED-bessemer-install-copy/</guid>
+        <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
