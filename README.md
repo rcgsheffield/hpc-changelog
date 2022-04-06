@@ -83,7 +83,7 @@ The new guidance can now be found at:
 
 ## Adding new tags
 
-If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the required ancilliary files (an ``.md`` and a ``.xml`` file) to generate a tag page and a tag XML feed **HOWEVER** you must run the build command at 
+If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the required precursor files (an ``.md`` and a ``.xml`` file) to generate a tag page and a tag XML feed **HOWEVER** you must run the build command at 
 least twice, then make sure you commit the automatically generated files.
 
 If you fail to do this, due to an unresolved bug with the Jekyll hooks that do this auto generation, the CI/CD process 
