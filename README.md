@@ -18,7 +18,7 @@ The website uses the Jekyll website building engine and follows the general Jeky
 
 -----
 
-## How to build the website
+## How to build the website locally
 
 * Install Jekyll - https://jekyllrb.com/docs/installation/
 
@@ -75,16 +75,15 @@ The new guidance can now be found at:
 
 [https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html)
 ```
-4. Check your tags match the existing ones in use (case sensitive) and ensure you run the build process twice to generate any new tag's ``.md`` and ``.xml`` files.
+4. Check your tags match the existing ones in use (case sensitive) and ensure you run the build process twice to generate any new tag's ``.md`` and ``.xml`` precursor files.
 5. Commit your new file/s to your branch or fork then make a PR.
-6. Check the tests pass and then merge to automatically update and redploy the site.
+6. Check the tests pass and then merge to automatically update and redeploy the site.
 
 -----
 
 ## Adding new tags
 
-If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the required precursor files (an ``.md`` and a ``.xml`` file) to generate a tag page and a tag XML feed **HOWEVER** you must run the build command at 
-least twice, then make sure you commit the automatically generated files.
+If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the precursor files (an ``.md`` and a ``.xml`` file) required to generate a tag page and a tag XML feed. **HOWEVER** you must run the build command at least twice, then make sure you commit the automatically generated files.
 
 If you fail to do this, due to an unresolved bug with the Jekyll hooks that do this auto generation, the CI/CD process 
 on Github will not generate these for you (it runs the build process once) and will generate a website with links to pages that do not exist.
