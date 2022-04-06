@@ -1,7 +1,7 @@
 ---
 title:  "New software installed: JAGS 4.3.0"
 category: New
-tags: JAGS software bessemer
+tags: JAGS software Bessemer
 ---
 The software JAGS (Just Another Gibbs Sampler) has been installed on Bessemer.
 It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation not wholly unlike BUGS.

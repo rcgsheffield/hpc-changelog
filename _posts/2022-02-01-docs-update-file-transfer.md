@@ -1,7 +1,7 @@
 ---
 title:  "Major HPC documentation update: New file transfer guidance added!"
 category: New
-tags: documentation update sharc bessemer
+tags: documentation update ShARC Bessemer
 ---
 
 A major update to the HPC documentation has been made covering the process of 

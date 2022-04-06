@@ -1,7 +1,7 @@
 ---
 title:  "New software version installed: CUDA / cuDNN"
 category: New
-tags: CUDA cuDNN software bessemer update
+tags: CUDA cuDNN software Bessemer update
 ---
 CUDA versions 11.1.1 and 11.0.2 have been added to Bessemer with the related cuDNN version 8.0.4.30.
 
