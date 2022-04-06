@@ -1,7 +1,7 @@
 ---
 title:  "New software installed: Bowtie2 2.3.4.2"
 category: New
-tags: Bowtie2 software bessemer
+tags: Bowtie2 software Bessemer
 ---
 The software Bowtie2 has been installed on Bessemer.
 Bowtie2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. 

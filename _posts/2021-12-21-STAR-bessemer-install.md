@@ -1,7 +1,7 @@
 ---
 title:  "New software installed: STAR 2.7.6a"
 category: New
-tags: STAR software bessemer
+tags: STAR software Bessemer
 ---
 The software STAR (Spliced Transcripts Alignment to a Reference) has been installed on Bessemer.
 STAR is a software for RNA sequence alignment. STAR aligns RNA-seq reads to a reference genome using uncompressed suffix arrays.

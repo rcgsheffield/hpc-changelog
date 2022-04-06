@@ -1,7 +1,7 @@
 ---
 title:  "New software installed: ncdu 1.15.1"
 category: New
-tags: ncdu software bessemer sharc
+tags: ncdu software Bessemer ShARC
 ---
 
 The software ncdu has been installed on Bessemer and ShARC: ncdu is a disk usage analyzer with an ncurses interface.

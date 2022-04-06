@@ -1,7 +1,7 @@
 ---
 title:  "New software installed: NetLogo 6.2.0"
 category: New
-tags: NetLogo software bessemer
+tags: NetLogo software Bessemer
 ---
 
 The software NetLogo has been installed on Bessemer. NetLogo is a multi-agent programmable modeling environment. It is used by many hundreds of thousands of students, teachers, and researchers worldwide. It also powers HubNet participatory simulations. It is authored by Uri Wilensky and developed at the CCL.

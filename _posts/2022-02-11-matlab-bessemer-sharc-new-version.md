@@ -1,7 +1,7 @@
 ---
 title:  "New software version installed: MATLAB 2021b"
 category: New
-tags: MATLAB software bessemer sharc update
+tags: MATLAB software Bessemer ShARC update
 ---
 
 Version 2021b of the software MATLAB has been installed on Bessemer and ShARC.

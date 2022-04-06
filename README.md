@@ -1,7 +1,7 @@
 
 # Changelog
 
-##  What is this site?
+## What is this site?
 
 This is a website to organise / record a changelog of software / configuration of the TUoS HPC clusters.
 
@@ -65,7 +65,7 @@ http://127.0.0.1:4000
 ---
 title:  "Major HPC documentation update: New file transfer guidance added!"
 category: New
-tags: documentation update sharc bessemer
+tags: documentation update ShARC Bessemer
 ---
 
 A major update to the HPC documentation has been made covering the process of 
@@ -75,19 +75,19 @@ The new guidance can now be found at:
 
 [https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html)
 ```
-4. Commit new file.
-5. Do a PR to master and merge to automatically update the site.
+4. Check your tags match the existing ones in use (case sensitive) and ensure you run the build process twice to generate the new tag's ``.md`` and ``.xml`` files.
+5. Commit your new file/s to your branch or fork then make a PR.
+6. Check the tests pass and then merge to automatically update and redploy the site.
 
 -----
 
 ## Adding new tags
 
-If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the required 
-ancilliary files required to generate a tag page and a tag XML feed **HOWEVER** you must run the build command at 
-least twice and make sure you commit the automatically generated files.
+If you add a new tag the Ruby scripts in the _plugins directory, tag_cloud.rb (all tags page) and tag_generator.rb (generates individual tag feeds/pages), will automatically generate the required ancilliary files (an ``.md`` and a ``.xml`` file) to generate a tag page and a tag XML feed **HOWEVER** you must run the build command at 
+least twice, then make sure you commit the automatically generated files.
 
 If you fail to do this, due to an unresolved bug with the Jekyll hooks that do this auto generation, the CI/CD process 
-on Github will not generate these for you and will make a website displaying broken links.
+on Github will not generate these for you (it runs the build process once) and will generate a website with links to pages that do not exist.
 
 -----
 
