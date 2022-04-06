@@ -75,7 +75,7 @@ The new guidance can now be found at:
 
 [https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html](https://docs.hpc.shef.ac.uk/en/latest/hpc/transferring-files.html)
 ```
-4. Check your tags match the existing ones in use (case sensitive) and ensure you run the build process twice to generate the new tag's ``.md`` and ``.xml`` files.
+4. Check your tags match the existing ones in use (case sensitive) and ensure you run the build process twice to generate any new tag's ``.md`` and ``.xml`` files.
 5. Commit your new file/s to your branch or fork then make a PR.
 6. Check the tests pass and then merge to automatically update and redploy the site.
 
