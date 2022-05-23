@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>ncdu</p>
+ | Tag Feed: "<p>NVIDIA</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>ncdu</p>
+       <description>HPC Changelog recent changes for tag:"<p>NVIDIA</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
        <lastBuildDate>Mon, 23 May 2022 10:10:58 +0000</lastBuildDate>
@@ -12,47 +12,47 @@
        <ttl>7200</ttl>
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
        <item>
-        <title><p>New software installed: ncdu 1.15.1</p>
+        <title><p>64 NVIDIA A100 GPUs are now temporarily available on Bessemer for general use</p>
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//ncdu-bessemer-sharc-install/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//ncdu-bessemer-sharc-install/</guid>
-        <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-a100-nodes/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-a100-nodes/</guid>
+        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
        </item>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     

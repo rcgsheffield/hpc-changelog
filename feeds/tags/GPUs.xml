@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>GPUs</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Thu, 12 May 2022 15:34:19 +0000</lastBuildDate>
-       <pubDate>Thu, 12 May 2022 15:34:19 +0000</pubDate>
+       <lastBuildDate>Mon, 23 May 2022 10:10:58 +0000</lastBuildDate>
+       <pubDate>Mon, 23 May 2022 10:10:58 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>64 NVIDIA A100 GPUs are now temporarily available on Bessemer for general use</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-a100-nodes/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-a100-nodes/</guid>
+        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   

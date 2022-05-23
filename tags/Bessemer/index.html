@@ -15,11 +15,11 @@
 <meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/Bessemer/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-05-12T15:34:19+00:00" />
+<meta property="article:published_time" content="2022-05-23T10:10:58+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bessemer" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-05-12T15:34:19+00:00","datePublished":"2022-05-12T15:34:19+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Bessemer","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-05-23T10:10:58+00:00","datePublished":"2022-05-23T10:10:58+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Bessemer","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -123,6 +123,79 @@
 </div>
 
 <div class="row">
+  
+    
+    <hr>
+    <div class="col-md-10 category-New">
+    <a href="/bessemer-a100-nodes/" class="post-date text-muted">
+      <h2 class="title">
+        64 NVIDIA A100 GPUs are now temporarily available on Bessemer for general use
+      </h2>
+      </a>
+      Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a></br>
+        
+      
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/NVIDIA/ rel="category tag">#NVIDIA</a>
+      
+
+      
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        <p>Those of you that have a need for GPUs for your work may be aware that the Bessemer cluster only has one public GPU node (with 4x NVIDIA V100 GPUs) and ShARC only has two public GPU nodes (with K80 GPUs, which are now not particularly modern). There are a number of private GPUs node in Bessemer and ShARC and the private GPU nodes in Bessemer can be used by all users if they’re willing to tolerate <a href="https://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html#preemptable-jobs">jobs being abruptly terminated</a>, but this isn’t a constraint all researchers can work with and having more GPUs available to the UoS research community would be a good thing.</p>
+
+<p>We’re therefore pleased to announce that we’re to greatly increase the number of GPUs available in UoS HPC systems by temporarily adding 16 GPU nodes, each with 4x NVIDIA A100 GPUs, to the Bessemer HPC system; and these will be available to all users. Note that these nodes will be relocated into what will be our next big HPC system in a few months’ time (there’ll be more info on that HPC system in due course).</p>
+
+<p>Peter Heywood and Robert Chisholm in the Research Software Engineering team have done some performance comparisons with the <a href="https://flamegpu.com/">FLAME GPU 2</a> research software between these A100 nodes and the existing V100 nodes in Bessemer. They found that even for a memory-latency (and memory-bandwidth) -bound problem that the nodes featuring newer-generation A100 GPUs were significantly faster than the V100 nodes under CUDA 11!</p>
+
+<p>Please note:</p>
+<ul>
+  <li>These nodes are being provided in Bessemer on a temporary basis.</li>
+  <li>They can be used for interactive work and for batch jobs (but please submit batch jobs where possible)</li>
+  <li>Much of the software centrally provided on Bessemer is incompatible with these nodes as they have a different CPU ‘microarchitecture’ to the majority of nodes in Bessemer.</li>
+  <li>Some software is centrally-provided specifically for use on these nodes.</li>
+  <li>But it’s currently quite a limited set and will most likely not be expanded on much until the nodes are relocated into our next big HPC system in a few months’ time.</li>
+  <li>There are a few things to be aware of if migrating workflows to these nodes, which we’ve tried to document.</li>
+</ul>
+
+<p>For more information on these nodes including specifications, access information and warnings/gotchas regarding software performance and compatibility please see:</p>
+
+<p><a href="https://docs.hpc.shef.ac.uk/en/latest/bessemer/GPUComputingBessemer.html">Using GPUs on Bessemer — Sheffield HPC Documentation</a></p>
+
+<p>If you have any comments/feedback regarding these nodes or the documentation, or have any issues using them then please get in touch via <a href="mailto:research-it@sheffield.ac.uk?subject=A100 usage help request.&quot;">research-it@sheffield.ac.uk</a>.</p>
+
+<p>Besides this, LGTM!</p>
+
+      </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="/2022/05/23" class="post-date text-muted">
+          May 23, 2022
+        </a>
+      </div>
+    
   
     
     <hr>
