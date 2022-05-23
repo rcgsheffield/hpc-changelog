@@ -23,5 +23,3 @@ For more information on these nodes including specifications, access information
 [Using GPUs on Bessemer — Sheffield HPC Documentation](https://docs.hpc.shef.ac.uk/en/latest/bessemer/GPUComputingBessemer.html)
 
 If you have any comments/feedback regarding these nodes or the documentation, or have any issues using them then please get in touch via [research-it@sheffield.ac.uk](mailto:research-it@sheffield.ac.uk?subject=A100 usage help request.").
-
-Besides this, LGTM!
