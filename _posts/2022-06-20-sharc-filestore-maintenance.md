@@ -12,4 +12,4 @@ Any user activity on the cluster at 09:00 of 5th July will be terminated includi
 
 Job queues will be automatically disabled to prevent the submission of new jobs after 00:00 on 5th July.  Any jobs submitted in the few days before that will remain queued and won’t run until after the maintenance period if the job scheduler (SGE) thinks the jobs require more run time than is available before 00:00 on 5th July.  Don’t forget that you can explicitly specify the amount of run time you want per job on ShARC using the [SGE parameter ‘-l h_rt’](https://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html#batch-jobs)
 
-If you have any questions about the above or the maintenance work in general please get in touch with us via [research-it@sheffield.ac.uk](mailto:research-it@sheffield.ac.uk?subject= ShARC unavailable on 5th July (maintenance work)").
+If you have any questions about the above or the maintenance work in general please get in touch with us via [research-it@sheffield.ac.uk](mailto:research-it@sheffield.ac.uk?subject=RE:ShARC unavailable on 5th July (maintenance work)).
