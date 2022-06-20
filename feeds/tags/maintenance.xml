@@ -2,9 +2,9 @@
       <rss version="2.0">
       <channel>
        <title><p>TUoS HPC Changelog</p>
- | Tag Feed: "<p>HPC</p>
+ | Tag Feed: "<p>maintenance</p>
 "</title>
-       <description>HPC Changelog recent changes for tag:"<p>HPC</p>
+       <description>HPC Changelog recent changes for tag:"<p>maintenance</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
        <lastBuildDate>Mon, 20 Jun 2022 11:37:09 +0000</lastBuildDate>
@@ -24,14 +24,28 @@
     
   
     
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
        <item>
-        <title><p>64 NVIDIA A100 GPUs are now temporarily available on Bessemer for general use</p>
+        <title><p>bessemer-node026 and bessemer-node058: unexpected reboots / GPU driver upgrade</p>
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//bessemer-a100-nodes/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-a100-nodes/</guid>
-        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</guid>
+        <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
        </item>
     
   
@@ -40,19 +54,15 @@
     
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
+       <item>
+        <title><p>bessemer-node026 (public GPU node) returned to service</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-node026-ret2svc/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-node026-ret2svc/</guid>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+       </item>
     
   
     

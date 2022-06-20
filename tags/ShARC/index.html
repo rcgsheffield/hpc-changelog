@@ -15,11 +15,11 @@
 <meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/ShARC/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-05-23T11:19:25+00:00" />
+<meta property="article:published_time" content="2022-06-20T11:37:09+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sharc" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-05-23T11:19:25+00:00","datePublished":"2022-05-23T11:19:25+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Sharc","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/ShARC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/ShARC/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-06-20T11:37:09+00:00","datePublished":"2022-06-20T11:37:09+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Sharc","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/ShARC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/ShARC/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -123,6 +123,59 @@
 </div>
 
 <div class="row">
+  
+    
+    <hr>
+    <div class="col-md-10 category-New">
+    <a href="/sharc-filestore-maintenance/" class="post-date text-muted">
+      <h2 class="title">
+        ShARC unavailable on 5th July (filestore maintenance work)
+      </h2>
+      </a>
+      Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a></br>
+        
+      
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/ShARC/ rel="category tag">#ShARC</a>
+      
+      
+      <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+
+      
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        <p>On 5th July ShARC will be unavailable due to maintenance work, as data in several key storage areas including home directories is being migrated from older file servers to newer ones.  Access to and use of the Bessemer HPC cluster will not be affected by this work, neither will direct user access to research storage areas via CIFS/SMB clients.</p>
+
+<p>The data migration work is scheduled to take place between 09:00 to 12:00 on that day but all user activity on the cluster should cease before then and you should assume that the cluster won’t be usable earlier in the day on 5th July.  We’ll update users via hpc-announce@sheffield.ac.uk once the work is complete and should there be any delays.</p>
+
+<p>Any user activity on the cluster at 09:00 of 5th July will be terminated including: SSH sessions on login nodes, interactive and batch jobs on worker nodes, interactive JupyterHub and myApps/SGD sessions, periodic jobs and file transfers to/from the cluster (via SCP/rsync).  During the maintenance period users will not be able to SSH to the login nodes, copy files to/from the cluster via SCP/rsync, run JupyterHub sessions or run myApps sessions.</p>
+
+<p>Job queues will be automatically disabled to prevent the submission of new jobs after 00:00 on 5th July.  Any jobs submitted in the few days before that will remain queued and won’t run until after the maintenance period if the job scheduler (SGE) thinks the jobs require more run time than is available before 00:00 on 5th July.  Don’t forget that you can explicitly specify the amount of run time you want per job on ShARC using the <a href="https://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html#batch-jobs">SGE parameter ‘-l h_rt’</a></p>
+
+<p>If you have any questions about the above or the maintenance work in general please get in touch with us via <a href="mailto:research-it@sheffield.ac.uk?subject=RE:ShARC unavailable on 5th July (maintenance work)">research-it@sheffield.ac.uk</a>.</p>
+
+      </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="/2022/06/20" class="post-date text-muted">
+          June 20, 2022
+        </a>
+      </div>
+    
   
     
   
