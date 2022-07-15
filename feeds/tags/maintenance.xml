@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>maintenance</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 15 Jul 2022 15:25:13 +0000</lastBuildDate>
-       <pubDate>Fri, 15 Jul 2022 15:25:13 +0000</pubDate>
+       <lastBuildDate>Fri, 15 Jul 2022 15:31:45 +0000</lastBuildDate>
+       <pubDate>Fri, 15 Jul 2022 15:31:45 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Bessemer fastdata filestore at risk on the July 19th (maintenance work)</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/</guid>
+        <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
        <item>
