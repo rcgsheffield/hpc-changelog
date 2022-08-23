@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>software</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Thu, 21 Jul 2022 13:23:46 +0000</lastBuildDate>
-       <pubDate>Thu, 21 Jul 2022 13:23:46 +0000</pubDate>
+       <lastBuildDate>Tue, 23 Aug 2022 11:08:25 +0000</lastBuildDate>
+       <pubDate>Tue, 23 Aug 2022 11:08:25 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>NAG C and Fortran library version 28.5 (nll6i285bl) installed on ShARC</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//NAG-lib-update-sharc/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NAG-lib-update-sharc/</guid>
+        <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
