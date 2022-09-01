@@ -1,5 +1,5 @@
 ---
-title:  "Bessemer fastdata filestore at risk on the 1st of September (maintenance work)"
+title:  "Bessemer fastdata filestore offline on the 1st of September (maintenance work)"
 category: New
 tags: Bessemer HPC maintenance
 ---
