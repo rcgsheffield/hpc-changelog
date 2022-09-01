@@ -5,21 +5,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Bessemer fastdata filestore at risk on the July 27th (maintenance work) | TUoS HPC Changelog</title>
+<title>Bessemer fastdata filestore at risk on the 1st of September (maintenance work) | TUoS HPC Changelog</title>
 <meta name="generator" content="Jekyll v4.2.1" />
-<meta property="og:title" content="Bessemer fastdata filestore at risk on the July 27th (maintenance work)" />
+<meta property="og:title" content="Bessemer fastdata filestore at risk on the 1st of September (maintenance work)" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="An update is required for the storage controllers of the fastdata filestorage area on the Bessemer HPC system. No downtime is required or expected however the fastdata area on Bessemer should be considered at risk during this maintenance." />
-<meta property="og:description" content="An update is required for the storage controllers of the fastdata filestorage area on the Bessemer HPC system. No downtime is required or expected however the fastdata area on Bessemer should be considered at risk during this maintenance." />
+<meta name="description" content="An update is required for the storage controllers, Lustre clients and Lustre servers underpinning of the fastdata filestorage area on the Bessemer HPC system. The /fastdata area (Lustre filesystem) on Bessemer will be unavailable on Thursday the 1st of September from 09:00 to 17:00." />
+<meta property="og:description" content="An update is required for the storage controllers, Lustre clients and Lustre servers underpinning of the fastdata filestorage area on the Bessemer HPC system. The /fastdata area (Lustre filesystem) on Bessemer will be unavailable on Thursday the 1st of September from 09:00 to 17:00." />
 <link rel="canonical" href="http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/" />
 <meta property="og:url" content="http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-07-12T00:00:00+00:00" />
+<meta property="article:published_time" content="2022-09-01T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Bessemer fastdata filestore at risk on the July 27th (maintenance work)" />
+<meta property="twitter:title" content="Bessemer fastdata filestore at risk on the 1st of September (maintenance work)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-07-12T00:00:00+00:00","datePublished":"2022-07-12T00:00:00+00:00","description":"An update is required for the storage controllers of the fastdata filestorage area on the Bessemer HPC system. No downtime is required or expected however the fastdata area on Bessemer should be considered at risk during this maintenance.","headline":"Bessemer fastdata filestore at risk on the July 27th (maintenance work)","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-01T00:00:00+00:00","datePublished":"2022-09-01T00:00:00+00:00","description":"An update is required for the storage controllers, Lustre clients and Lustre servers underpinning of the fastdata filestorage area on the Bessemer HPC system. The /fastdata area (Lustre filesystem) on Bessemer will be unavailable on Thursday the 1st of September from 09:00 to 17:00.","headline":"Bessemer fastdata filestore at risk on the 1st of September (maintenance work)","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//bessemer-filestore-maintenance/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -110,7 +110,7 @@
     <div class="col-md-10 category-New">
       
       <h3 class="title">
-        <a href="/bessemer-filestore-maintenance/" class="post-date text-muted">Bessemer fastdata filestore at risk on the July 27th (maintenance work)</a>
+        <a href="/bessemer-filestore-maintenance/" class="post-date text-muted">Bessemer fastdata filestore at risk on the 1st of September (maintenance work)</a>
       </h3>
       
       <div>Type: 
@@ -139,19 +139,22 @@
       
 
         <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>An update is required for the storage controllers of the fastdata filestorage area on the Bessemer HPC system. No downtime is required or expected however <strong>the fastdata area on Bessemer should be considered at risk during this maintenance.</strong></p>
+          <p>An update is required for the storage controllers, Lustre clients and Lustre servers underpinning of the fastdata filestorage area on the Bessemer HPC system. The /fastdata area (Lustre filesystem) on Bessemer will be unavailable on Thursday the 1st of September from 09:00 to 17:00.</p>
 
-<p>The maintenance period for this work will be 11:00 - 13:00 on the 27th of July. Further reminders and updates with respect to this maintenance will be provided in due course.</p>
+<p>Please be aware that:</p>
+<ul>
+  <li>Any jobs using /fastdata at 09:00 on the 1st of September will be terminated.</li>
+  <li>Any processes on login nodes using /fastdata at that time will also be terminated.</li>
+  <li>Bessemer will be accessible and usable throughout this maintenance period for those that don’t need access to /fastdata then.</li>
+</ul>
 
-<p>If you have any questions about the above or the maintenance work in general please get in touch with us via <a href="mailto:research-it@sheffield.ac.uk?subject=RE:Bessemer fastdata file store at risk on the July 27th (maintenance work)">research-it@sheffield.ac.uk</a>.</p>
-
-<p>Note: This work was rescheduled due to the abnormally hot weather from the previous week causing a major incident via loss of air conditioning in the datacentre.</p>
+<p>If you have any questions about the above or the maintenance work in general please get in touch with us via <a href="mailto:research-it@sheffield.ac.uk?subject=RE:Bessemer fastdata file store at risk on the September 1st (maintenance work)">research-it@sheffield.ac.uk</a>.</p>
 
         </div>
     </div>
     <div class="col-md-2 mb-2 text-end">
-      <a href="/2022/07/12" class="post-date text-muted">
-        July 12, 2022
+      <a href="/2022/09/01" class="post-date text-muted">
+        September 01, 2022
       </a>
     </div>
   </div>
