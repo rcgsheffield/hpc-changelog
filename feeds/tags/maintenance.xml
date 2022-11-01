@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>maintenance</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Thu, 01 Sep 2022 10:00:07 +0000</lastBuildDate>
-       <pubDate>Thu, 01 Sep 2022 10:00:07 +0000</pubDate>
+       <lastBuildDate>Tue, 01 Nov 2022 14:45:25 +0000</lastBuildDate>
+       <pubDate>Tue, 01 Nov 2022 14:45:25 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Bessemer scheduler update from version 21.08.8 to 22.05.5</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-slurm-maintenance/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-slurm-maintenance/</guid>
+        <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
        <item>
