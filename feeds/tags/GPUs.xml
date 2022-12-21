@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>GPUs</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Mon, 14 Nov 2022 17:18:41 +0000</lastBuildDate>
-       <pubDate>Mon, 14 Nov 2022 17:18:41 +0000</pubDate>
+       <lastBuildDate>Wed, 21 Dec 2022 16:56:23 +0000</lastBuildDate>
+       <pubDate>Wed, 21 Dec 2022 16:56:23 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Bessemer NVIDIA A100 GPU Nodes removed.</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//bessemer-gpu-nodes-removed/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-gpu-nodes-removed/</guid>
+        <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
