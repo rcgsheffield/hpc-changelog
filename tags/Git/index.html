@@ -5,21 +5,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Gpu | TUoS HPC Changelog</title>
+<title>Git | TUoS HPC Changelog</title>
 <meta name="generator" content="Jekyll v4.2.1" />
-<meta property="og:title" content="Gpu" />
+<meta property="og:title" content="Git" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Keep yourself up to date with recent changes on the University of Sheffield HPC clusters." />
 <meta property="og:description" content="Keep yourself up to date with recent changes on the University of Sheffield HPC clusters." />
-<link rel="canonical" href="http://changelog.hpc.shef.ac.uk//tags/GPU/" />
-<meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/GPU/" />
+<link rel="canonical" href="http://changelog.hpc.shef.ac.uk//tags/Git/" />
+<meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/Git/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-01-30T11:41:49+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Gpu" />
+<meta property="twitter:title" content="Git" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-30T11:41:49+00:00","datePublished":"2023-01-30T11:41:49+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Gpu","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/GPU/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/GPU/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-30T11:41:49+00:00","datePublished":"2023-01-30T11:41:49+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Git","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Git/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Git/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -107,8 +107,8 @@
                     
                 <div class="lg-container mt-3">
                     <div style="margin-top:10px;margin-bottom:10px;" class="snippets">
-  <h2 class="snippets-heading">Changes tagged with "GPU"</h2>
-  <a href="/feeds/tags/GPU.xml"
+  <h2 class="snippets-heading">Changes tagged with "Git"</h2>
+  <a href="/feeds/tags/Git.xml"
     class="inline-block mt-md-0 text-orange d-flex align-items-center">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 22" fill="none"
       stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
@@ -119,19 +119,17 @@
     </svg>
     <div class="text-primary px-2">Tag specific RSS feed</div>
   </a>
-  <a href="/feeds/tags/GPU.xml" class="post-date text-muted"></a>
+  <a href="/feeds/tags/Git.xml" class="post-date text-muted"></a>
 </div>
 
 <div class="row">
   
     
-  
-    
     <hr>
     <div class="col-md-10 category-New">
-    <a href="/bessemer-gpu-nodes-removed/" class="post-date text-muted">
+    <a href="/software-git-upgrades/" class="post-date text-muted">
       <h2 class="title">
-        Bessemer NVIDIA A100 GPU Nodes removed.
+        Cluster Git modules updated - new version: 2.39.1
       </h2>
       </a>
       Type: 
@@ -148,6 +146,9 @@
       
       
       <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/ShARC/ rel="category tag">#ShARC</a>
       
       
       <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
@@ -156,29 +157,32 @@
       <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
       
       
-      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
-      
-      
-      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
-      
-      
-      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      <a class="tag-link" href=/tags/Git/ rel="category tag">#Git</a>
       
 
       
       <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-        <p>Between May and December 2022, 16 addtional GPU nodes were (temporarily) available to all users of Bessemer.<br />
-These featured NVIDIA A100 GPUs, which were quite a bit faster than the (older generation) V100 GPUs in Bessemer.</p>
+        <p>Newer Git modules for both the ShARC and Bessemer cluster have been added and older modules have been depreciated due to various vulnerabilities.</p>
 
-<p>These have now been removed from Bessemer and will be available in the University’s new HPC cluster, Stanage, early in 2023.</p>
+<p>Git can now be loaded on ShARC with:</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">module load dev/git/2.39.1/gcc-4.9.4</code></p>
+</blockquote>
+
+<p>Git can now be loaded on Bessemer with:</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">module load git/2.39.1-GCCcore-10.3.0-nodocs</code>.</p>
+</blockquote>
 
       </div><br>
     </div>
 
 
       <div class="col-md-2 mb-2 text-end">
-        <a href="/2022/12/21" class="post-date text-muted">
-          December 21, 2022
+        <a href="/2023/01/30" class="post-date text-muted">
+          January 30, 2023
         </a>
       </div>
     
@@ -210,51 +214,7 @@ These featured NVIDIA A100 GPUs, which were quite a bit faster than the (older g
     
   
     
-    <hr>
-    <div class="col-md-10 category-New">
-    <a href="/bessemer-reboots-gpu-driver-upgr/" class="post-date text-muted">
-      <h2 class="title">
-        bessemer-node026 and bessemer-node058: unexpected reboots / GPU driver upgrade
-      </h2>
-      </a>
-      Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
-          <span class="category bg-blue">New</span>        
-          </a></br>
-        
-      
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
-      
-      
-      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
-      
-      
-      <a class="tag-link" href=/tags/fault/ rel="category tag">#fault</a>
-      
-      
-      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
-      
-
-      
-      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-        <p>Two GPU nodes in Bessemer have been unexpectedly rebooting over the last few weeks.  A common factor is the GPU driver software, where we’ve been using a particular version over the period where we’ve been experiencing random reboots of those two nodes.  The GPU driver on those two nodes has now been upgraded to see if this will prevent further random reboots, and those two nodes has been returned to service.  However, for the next couple of weeks you should assume that those two nodes are at risk.</p>
-
-      </div><br>
-    </div>
-
-
-      <div class="col-md-2 mb-2 text-end">
-        <a href="/2022/02/24" class="post-date text-muted">
-          February 24, 2022
-        </a>
-      </div>
+  
     
   
     
