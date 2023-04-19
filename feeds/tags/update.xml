@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>update</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Mon, 30 Jan 2023 11:41:49 +0000</lastBuildDate>
-       <pubDate>Mon, 30 Jan 2023 11:41:49 +0000</pubDate>
+       <lastBuildDate>Wed, 19 Apr 2023 12:31:34 +0000</lastBuildDate>
+       <pubDate>Wed, 19 Apr 2023 12:31:34 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Major HPC documentation update: New Stanage cluster launched!</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//stanage-launch/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//stanage-launch/</guid>
+        <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
