@@ -1,5 +1,5 @@
 ---
-title:  "Major HPC documentation update: New file transfer guidance added!"
+title:  "Major HPC documentation update: New Stanage cluster launched!"
 category: New
 tags: documentation update Stanage
 ---
