@@ -7,8 +7,8 @@
        <description>HPC Changelog recent changes for tag:"<p>maintenance</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Mon, 08 Jan 2024 13:25:08 +0000</lastBuildDate>
-       <pubDate>Mon, 08 Jan 2024 13:25:08 +0000</pubDate>
+       <lastBuildDate>Mon, 08 Jan 2024 15:29:12 +0000</lastBuildDate>
+       <pubDate>Mon, 08 Jan 2024 15:29:12 +0000</pubDate>
        <ttl>7200</ttl>
   
     
@@ -20,6 +20,18 @@
         <link>http://changelog.hpc.shef.ac.uk//bessemer-gpu-driver-upgrade/</link>
         <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-gpu-driver-upgrade/</guid>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+       </item>
+    
+  
+    
+       <item>
+        <title><p>Stanage maintenance outage and upgrades</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//stanage-gpu-driver-upgrade/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//stanage-gpu-driver-upgrade/</guid>
+        <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
        </item>
     
   
