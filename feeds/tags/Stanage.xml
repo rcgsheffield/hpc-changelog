@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>Stanage</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Mon, 08 Jan 2024 15:29:12 +0000</lastBuildDate>
-       <pubDate>Mon, 08 Jan 2024 15:29:12 +0000</pubDate>
+       <lastBuildDate>Thu, 11 Jan 2024 15:19:16 +0000</lastBuildDate>
+       <pubDate>Thu, 11 Jan 2024 15:19:16 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Temporary loss of Stanage and Bessemer HPC connectivity on January 17th 2024</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//temporary-network-disruption/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//temporary-network-disruption/</guid>
+        <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   

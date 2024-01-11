@@ -15,11 +15,11 @@
 <meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/Bessemer/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-01-08T15:29:12+00:00" />
+<meta property="article:published_time" content="2024-01-11T15:19:16+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bessemer" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-08T15:29:12+00:00","datePublished":"2024-01-08T15:29:12+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Bessemer","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-11T15:19:16+00:00","datePublished":"2024-01-11T15:19:16+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Bessemer","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Bessemer/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -123,6 +123,71 @@
 </div>
 
 <div class="row">
+  
+    
+    <hr>
+    <div class="col-md-10 category-New">
+    <a href="/temporary-network-disruption/" class="post-date text-muted">
+      <h2 class="title">
+        Temporary loss of Stanage and Bessemer HPC connectivity on January 17th 2024
+      </h2>
+      </a>
+      Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a></br>
+        
+      
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+
+      
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        <p>Due to scheduled network upgrades on January 17th, there will be some short losses of network connectivity to our HPC systems with disruption to external access (between 10:00 - 12:00) and some supporting services (between 10:00 and 15:30).</p>
+
+<p>Note: As this will be brief network disruption, users may experience little to no outages or disruption when connecting via SSH / transferring files however, you may experience:</p>
+
+<ul>
+  <li>Hung/terminated SSH sessions to login nodes.</li>
+  <li>Hung/terminated SCP/SFTP/rsync file transfers to/from login nodes (although rsync may be able to resume from where it left off if then (re)invoked in the right way.)</li>
+  <li>Hung access to / file transfers to/from ‘/shared’ storage areas on Stanage login nodes and Bessemer login and worker nodes (depending on which /shared area you’re accessing).  These connections should automatically resume without the need for any intervention.</li>
+</ul>
+
+<p>If your jobs require access to Sheffield remote shared storage or require network access to start up correctly, you should hold your jobs during the maintenance period, then release them after the maintenance with the following commands for specific job IDs:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol hold &lt;job ID&gt;
+scontrol release &lt;job ID&gt;
+</code></pre></div></div>
+
+<p>If you want to hold and release all of your pending jobs, you can do so with the commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol hold {}
+squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol release {}
+</code></pre></div></div>
+
+      </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="/2024/01/10" class="post-date text-muted">
+          January 10, 2024
+        </a>
+      </div>
+    
   
     
     <hr>
