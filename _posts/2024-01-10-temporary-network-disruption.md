@@ -4,7 +4,7 @@ category: New
 tags: Stanage Bessemer maintenance
 ---
 
-Due to scheduled network upgrades on January 17th, there will be some short losses of network connectivity to our HPC systems with disruption to external access (between 10:00 - 12:00) and some supporting services (between 10:00 and 15:30).
+Due to scheduled network upgrades on January 17th, there will be some short losses of network connectivity to our HPC systems with disruption to external access (between 09:30 - 12:00) and some supporting services (between 09:30 and 15:30).
 
 Note: As this will be brief network disruption, users may experience little to no outages or disruption when connecting via SSH / transferring files however, you may experience:
 
