@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>software</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Thu, 11 Jan 2024 15:41:45 +0000</lastBuildDate>
-       <pubDate>Thu, 11 Jan 2024 15:41:45 +0000</pubDate>
+       <lastBuildDate>Thu, 14 Mar 2024 10:49:56 +0000</lastBuildDate>
+       <pubDate>Thu, 14 Mar 2024 10:49:56 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>New software installed: Nextflow 23.10.0</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//nextflow-stanage-update/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//nextflow-stanage-update/</guid>
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
