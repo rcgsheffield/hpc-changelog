@@ -136,65 +136,6 @@
     <div class="col-md-10 category-New">
       
       <h3 class="title">
-        <a href="/bessemer-slurm-maintenance/" class="post-date text-muted">Bessemer scheduler update from version 21.08.8 to 22.05.5</a>
-      </h3>
-      
-      <div>Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
-          <span class="category bg-blue">New</span>        
-          </a>
-        
-      </div>
-
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
-      
-      
-      <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
-      
-      
-      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
-      
-      
-      <a class="tag-link" href=/tags/Slurm/ rel="category tag">#Slurm</a>
-      
-
-      
-
-        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>An update is required for the Slurm scheduler  (from version 21.08.8 to 22.05.5)  on Bessemer. This maintenance is scheduled for Thursday the 3rd of November between 13:00 to 14:00.</p>
-
-<p>This should be non-disruptive but if you wish, you can hold and release your queued jobs with:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol hold &lt;job ID&gt; 
-
-scontrol release &lt;job ID&gt;
-</code></pre></div></div>
-
-<p>If you have any questions about the above or the maintenance work in general please get in touch with us via <a href="mailto:research-it@sheffield.ac.uk?subject=RE:Bessemer Slurm update November 3rd (maintenance work)">research-it@sheffield.ac.uk</a>.</p>
-
-        </div>
-    </div>
-    <div class="col-md-2 mb-2 text-end">
-      <a href="/2022/11/01" class="post-date text-muted">
-        November 01, 2022
-      </a>
-    </div>
-  </div>
-
-  
-    <hr>
-
-    <div class="row">
-    <div class="col-md-10 category-New">
-      
-      <h3 class="title">
         <a href="/bessemer-filestore-maintenance-1/" class="post-date text-muted">Bessemer fastdata filestore offline on the 1st of September (maintenance work)</a>
       </h3>
       
@@ -397,6 +338,79 @@ scontrol release &lt;job ID&gt;
     <div class="col-md-2 mb-2 text-end">
       <a href="/2022/06/20" class="post-date text-muted">
         June 20, 2022
+      </a>
+    </div>
+  </div>
+
+  
+    <hr>
+
+    <div class="row">
+    <div class="col-md-10 category-New">
+      
+      <h3 class="title">
+        <a href="/bessemer-a100-nodes/" class="post-date text-muted">64 NVIDIA A100 GPUs are now temporarily available on Bessemer for general use</a>
+      </h3>
+      
+      <div>Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a>
+        
+      </div>
+
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/NVIDIA/ rel="category tag">#NVIDIA</a>
+      
+
+      
+
+        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+          <p>Those of you that have a need for GPUs for your work may be aware that the Bessemer cluster only has one public GPU node (with 4x NVIDIA V100 GPUs) and ShARC only has two public GPU nodes (with K80 GPUs, which are now not particularly modern). There are a number of private GPUs node in Bessemer and ShARC and the private GPU nodes in Bessemer can be used by all users if they’re willing to tolerate <a href="https://docs.hpc.shef.ac.uk/en/latest/hpc/scheduler/index.html#preemptable-jobs">jobs being abruptly terminated</a>, but this isn’t a constraint all researchers can work with and having more GPUs available to the UoS research community would be a good thing.</p>
+
+<p>We’re therefore pleased to announce that we’re to greatly increase the number of GPUs available in UoS HPC systems by temporarily adding 16 GPU nodes, each with 4x NVIDIA A100 GPUs, to the Bessemer HPC system; and these will be available to all users. Note that these nodes will be relocated into what will be our next big HPC system in a few months’ time (there’ll be more info on that HPC system in due course).</p>
+
+<p>Peter Heywood and Robert Chisholm in the Research Software Engineering team have done some performance comparisons with the <a href="https://flamegpu.com/">FLAME GPU 2</a> research software between these A100 nodes and the existing V100 nodes in Bessemer. They found that even for a memory-latency (and memory-bandwidth) -bound problem that the nodes featuring newer-generation A100 GPUs were significantly faster than the V100 nodes under CUDA 11!</p>
+
+<p>Please note:</p>
+<ul>
+  <li>These nodes are being provided in Bessemer on a temporary basis.</li>
+  <li>They can be used for interactive work and for batch jobs (but please submit batch jobs where possible)</li>
+  <li>Much of the software centrally provided on Bessemer is incompatible with these nodes as they have a different CPU ‘microarchitecture’ to the majority of nodes in Bessemer.</li>
+  <li>Some software is centrally-provided specifically for use on these nodes.</li>
+  <li>But it’s currently quite a limited set and will most likely not be expanded on much until the nodes are relocated into our next big HPC system in a few months’ time.</li>
+  <li>There are a few things to be aware of if migrating workflows to these nodes, which we’ve tried to document.</li>
+</ul>
+
+<p>For more information on these nodes including specifications, access information and warnings/gotchas regarding software performance and compatibility please see:</p>
+
+<p><a href="https://docs.hpc.shef.ac.uk/en/latest/bessemer/GPUComputingBessemer.html">Using GPUs on Bessemer — Sheffield HPC Documentation</a></p>
+
+<p>If you have any comments/feedback regarding these nodes or the documentation, or have any issues using them then please get in touch via <a href="mailto:research-it@sheffield.ac.uk?subject=A100 usage help request.&quot;">research-it@sheffield.ac.uk</a>.</p>
+
+        </div>
+    </div>
+    <div class="col-md-2 mb-2 text-end">
+      <a href="/2022/05/23" class="post-date text-muted">
+        May 23, 2022
       </a>
     </div>
   </div>
