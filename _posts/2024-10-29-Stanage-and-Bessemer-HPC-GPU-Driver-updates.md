@@ -10,6 +10,6 @@ Over the weeks following the 4th of November, decreases in capacity for GPUs acr
 
 Nodes undergoing maintenance and the reason for the maintenance can be seen using the following command:
 
-``sinfo -R --format="%50E %N %.6t``
+``sinfo -R --format="%50E %N %.6t"``
 
 See the following link for further formatting options of the ``sinfo`` command: [https://slurm.schedmd.com/sinfo.html#OPT_format](https://slurm.schedmd.com/sinfo.html#OPT_format)
