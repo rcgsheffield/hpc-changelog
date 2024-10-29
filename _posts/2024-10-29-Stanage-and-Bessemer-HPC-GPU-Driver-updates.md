@@ -8,7 +8,7 @@ tags: Stanage Bessemer maintenance GPU GPUs A100 H100
 
 Over the weeks following the 4th of November, decreases in capacity for GPUs across both clusters are expected as nodes are required to be drained and rebooted. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for each cluster's GPU nodes.
 
-Nodes undergoing maintenance and the reason for the maintenance can be seen using the follwing command:
+Nodes undergoing maintenance and the reason for the maintenance can be seen using the following command:
 
 ``sinfo -R --format="%50E %N %.6t``
 
