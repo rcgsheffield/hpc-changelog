@@ -15,11 +15,11 @@
 <meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/Stanage/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-14T16:56:56+00:00" />
+<meta property="article:published_time" content="2024-10-29T11:37:30+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Stanage" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-14T16:56:56+00:00","datePublished":"2024-10-14T16:56:56+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Stanage","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Stanage/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Stanage/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-29T11:37:30+00:00","datePublished":"2024-10-29T11:37:30+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Stanage","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/Stanage/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/Stanage/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -123,6 +123,115 @@
 </div>
 
 <div class="row">
+  
+    
+    <hr>
+    <div class="col-md-10 category-Improvement">
+    <a href="/Stanage-central-software-storage-volume-nonn-disruptive-maintenance/" class="post-date text-muted">
+      <h2 class="title">
+        Stanage central software storage volume non-disruptive maintenance
+      </h2>
+      </a>
+      Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/improvement rel="category">
+          <span class="category bg-purple">Improvement</span>        
+          </a></br>
+        
+      
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+
+      
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        <p>The storage volume used to provide the centrally provided software for users on Stanage is nearly full. Maintenance work to increase the capacity of this area is scheduled for <strong>November 5th between 10am and 11:30am</strong>.</p>
+
+<p>This work is atypical and is expected to be non-disruptive to users and jobs on the cluster. Even so, during this period all jobs and interactive sessions using centrally provided software on Stanage should be considered at risk.</p>
+
+      </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="/2024/10/29" class="post-date text-muted">
+          October 29, 2024
+        </a>
+      </div>
+    
+  
+    
+    <hr>
+    <div class="col-md-10 category-Update">
+    <a href="/Stanage-and-Bessemer-HPC-GPU-Driver-updates/" class="post-date text-muted">
+      <h2 class="title">
+        Stanage and Bessemer GPU Driver updates - version 550.127.05 shortly available
+      </h2>
+      </a>
+      Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/update rel="category">
+          <span class="category bg-green">Update</span>        
+          </a></br>
+        
+      
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/H100/ rel="category tag">#H100</a>
+      
+
+      
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        <p><strong>Starting on Monday the 4th of November</strong>, the Stanage and Bessemer GPU nodes will begin to apply GPU driver updates to version 550.127.05. This driver version will retain CUDA 12.4 capability.</p>
+
+<p>Over the weeks following the 4th of November, decreases in capacity for GPUs across both clusters are expected as nodes are required to be drained and rebooted. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for each cluster’s GPU nodes.</p>
+
+<p>Nodes undergoing maintenance and the reason for the maintenance can be seen using the follwing command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sinfo -R --format="%50E %N %.6t</code></p>
+
+<p>See the following link for further formatting options of the <code class="language-plaintext highlighter-rouge">sinfo</code> command: <a href="https://slurm.schedmd.com/sinfo.html#OPT_format">https://slurm.schedmd.com/sinfo.html#OPT_format</a></p>
+
+      </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="/2024/10/29" class="post-date text-muted">
+          October 29, 2024
+        </a>
+      </div>
+    
   
     
     <hr>
