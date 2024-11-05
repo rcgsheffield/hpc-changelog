@@ -90,6 +90,18 @@ on Github will not generate these for you (it runs the build process once) and w
 
 -----
 
+## Adding admonitions to posts
+
+See the usage section as per: https://www.adamsdesk.com/posts/admonitions-jekyll/
+
+See also: [_posts/2024-10-29-Stanage-central-software-storage-volume-nonn-disruptive-maintenance.md](_posts/2024-10-29-Stanage-central-software-storage-volume-nonn-disruptive-maintenance.md)
+
+Minor tweaks of the SCSS were made.
+
+Cheers Adam!
+
+-----
+
 ## Acknowledgements
 
 This website was forked from the [changelogsite project.](https://github.com/changelogsite/changelog/)
