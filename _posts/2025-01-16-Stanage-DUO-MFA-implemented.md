@@ -12,4 +12,4 @@ When users connect to Stanage they will now be prompted via a push notification 
 
 * Users making use of Filezilla will now need to follow the same instructions as required for the Bessemer cluster to avoid being prompted by MFA multiple times while transferring files: [https://docs.hpc.shef.ac.uk/en/latest/FAQs.html#problems-connecting-with-filezilla-due-to-mfa](https://docs.hpc.shef.ac.uk/en/latest/FAQs.html#problems-connecting-with-filezilla-due-to-mfa)
 
-If there are any issues please get in touch via [research-it@sheffield.ac.uk](mailto:research-it@sheffield.ac.uk?subject=Stanage DUO MFA change - help request.").
+If there are any issues please get in touch via [research-it@sheffield.ac.uk](mailto:research-it@sheffield.ac.uk?subject="Stanage DUO MFA change - help request").
