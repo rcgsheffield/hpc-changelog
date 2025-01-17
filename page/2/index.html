@@ -133,6 +133,62 @@
                     <div class="post_list">
 
     <div class="row">
+    <div class="col-md-10 category-Update">
+      
+      <h3 class="title">
+        <a href="/Stanage-GPU-driver-updates-version-550.90.12-now-available/" class="post-date text-muted">Stanage GPU driver updates - version 550.90.12 now available</a>
+      </h3>
+      
+      <div>Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/update rel="category">
+          <span class="category bg-green">Update</span>        
+          </a>
+        
+      </div>
+
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/H100/ rel="category tag">#H100</a>
+      
+
+      
+
+        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+          <p>A GPU driver version update to driver version 550.90.12 (supporting CUDA 12.4) is now complete.</p>
+
+        </div>
+    </div>
+    <div class="col-md-2 mb-2 text-end">
+      <a href="/2024/10/14" class="post-date text-muted">
+        October 14, 2024
+      </a>
+    </div>
+  </div>
+
+  
+    <hr>
+
+    <div class="row">
     <div class="col-md-10 category-New">
       
       <h3 class="title">
@@ -350,66 +406,6 @@ squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol release {
     <div class="col-md-2 mb-2 text-end">
       <a href="/2024/01/08" class="post-date text-muted">
         January 08, 2024
-      </a>
-    </div>
-  </div>
-
-  
-    <hr>
-
-    <div class="row">
-    <div class="col-md-10 category-New">
-      
-      <h3 class="title">
-        <a href="/stanage-gpu-driver-upgrade/" class="post-date text-muted">Stanage maintenance outage and upgrades</a>
-      </h3>
-      
-      <div>Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
-          <span class="category bg-blue">New</span>        
-          </a>
-        
-      </div>
-
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
-      
-      
-      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
-      
-      
-      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
-      
-      
-      <a class="tag-link" href=/tags/outage/ rel="category tag">#outage</a>
-      
-
-      
-
-        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>A period of offline maintenance for the Stanage cluster will take place from 09:00 on 15th December to 17:00 on 19th December.</p>
-
-<p>What you need to know:</p>
-
-<p>All Stanage login nodes and worker nodes will be unavailable over that period so you won’t be able to run jobs or transfer data during that period.</p>
-
-<p>Leading up to the maintenance period jobs will only start if the amount of runtime they’ve requested is less than the duration until the start of the maintenance period.  e.g. if the maintenance period is to start in 48 hours time then batch jobs that request 47 hours of runtime can fit within that window and potentially be executed, depending on how busy job queues are, but jobs that request 49 hours can only be executed after the maintenance period.  The same logic applies with interactive sessions too: if you can’t start an interactive session then check that you’re requesting an appropriate amount of run time (e.g. ‘srun –time=02:30:00 –pty bash’ to start an interactive session with 2.5 hours of runtime).</p>
-
-<p>You shouldn’t notice any changes in system behaviour following the maintenance period, although a GPU version update to driver version 525.147.05 (supporting CUDA 12.0) will take place.</p>
-
-<p>The maintenance work should not impact data stored in home directories and /mnt/parscratch (Lustre filesystem) but please remember that neither of these areas are automatically backed up.</p>
-
-        </div>
-    </div>
-    <div class="col-md-2 mb-2 text-end">
-      <a href="/2023/12/15" class="post-date text-muted">
-        December 15, 2023
       </a>
     </div>
   </div>

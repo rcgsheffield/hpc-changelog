@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>software</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Thu, 16 Jan 2025 11:29:59 +0000</lastBuildDate>
-       <pubDate>Thu, 16 Jan 2025 11:29:59 +0000</pubDate>
+       <lastBuildDate>Fri, 17 Jan 2025 10:24:58 +0000</lastBuildDate>
+       <pubDate>Fri, 17 Jan 2025 10:24:58 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Major HPC documentation update: New Stanage All Package Index launched!</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//Stanage-all-package-index/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//Stanage-all-package-index/</guid>
+        <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
