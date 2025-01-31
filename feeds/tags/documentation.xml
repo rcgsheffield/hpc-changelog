@@ -7,9 +7,11 @@
        <description>HPC Changelog recent changes for tag:"<p>documentation</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 17 Jan 2025 10:24:58 +0000</lastBuildDate>
-       <pubDate>Fri, 17 Jan 2025 10:24:58 +0000</pubDate>
+       <lastBuildDate>Fri, 31 Jan 2025 11:40:41 +0000</lastBuildDate>
+       <pubDate>Fri, 31 Jan 2025 11:40:41 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
   
     
        <item>
@@ -17,8 +19,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//Stanage-all-package-index/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//Stanage-all-package-index/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2025-01-17-stanage-all-package-index/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2025-01-17-stanage-all-package-index/</guid>
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
        </item>
     
@@ -49,8 +51,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//stanage-launch/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//stanage-launch/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2023-04-19-stanage-launch/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2023-04-19-stanage-launch/</guid>
         <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
        </item>
     
@@ -103,8 +105,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//docs-update-file-transfer/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//docs-update-file-transfer/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-02-01-docs-update-file-transfer/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-02-01-docs-update-file-transfer/</guid>
         <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -117,8 +119,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//docs-update-install-instructions/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//docs-update-install-instructions/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-01-17-docs-update-install-instructions/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-01-17-docs-update-install-instructions/</guid>
         <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
        </item>
     

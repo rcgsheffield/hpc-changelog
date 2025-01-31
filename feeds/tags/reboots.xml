@@ -7,9 +7,11 @@
        <description>HPC Changelog recent changes for tag:"<p>reboots</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 17 Jan 2025 10:24:58 +0000</lastBuildDate>
-       <pubDate>Fri, 17 Jan 2025 10:24:58 +0000</pubDate>
+       <lastBuildDate>Fri, 31 Jan 2025 11:40:41 +0000</lastBuildDate>
+       <pubDate>Fri, 31 Jan 2025 11:40:41 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
   
     
   
@@ -63,8 +65,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//hpc-node-reboots/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//hpc-node-reboots/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-04-05-hpc-node-reboots/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-04-05-hpc-node-reboots/</guid>
         <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
        </item>
     

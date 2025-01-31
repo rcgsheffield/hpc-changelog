@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>GPU</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 17 Jan 2025 10:24:58 +0000</lastBuildDate>
-       <pubDate>Fri, 17 Jan 2025 10:24:58 +0000</pubDate>
+       <lastBuildDate>Fri, 31 Jan 2025 11:40:41 +0000</lastBuildDate>
+       <pubDate>Fri, 31 Jan 2025 11:40:41 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Stanage GPU driver upgrade</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/</guid>
+        <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
@@ -23,8 +35,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//Stanage-and-Bessemer-HPC-GPU-Driver-updates/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//Stanage-and-Bessemer-HPC-GPU-Driver-updates/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//update/2024-10-29-stanage-and-bessemer-hpc-gpu-driver-updates/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//update/2024-10-29-stanage-and-bessemer-hpc-gpu-driver-updates/</guid>
         <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
        </item>
     
@@ -37,8 +49,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//Stanage-GPU-driver-updates-version-550.90.12-now-available/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//Stanage-GPU-driver-updates-version-550.90.12-now-available/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//update/2024-10-14-stanage-gpu-driver-updates-version-550-90-12-now-available/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//update/2024-10-14-stanage-gpu-driver-updates-version-550-90-12-now-available/</guid>
         <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
        </item>
     
@@ -55,8 +67,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//bessemer-gpu-driver-upgrade/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-gpu-driver-upgrade/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2024-01-08-bessemer-gpu-driver-upgrade/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2024-01-08-bessemer-gpu-driver-upgrade/</guid>
         <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
        </item>
     
@@ -67,8 +79,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//stanage-gpu-driver-upgrade/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//stanage-gpu-driver-upgrade/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2023-12-15-stanage-gpu-driver-upgrade/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2023-12-15-stanage-gpu-driver-upgrade/</guid>
         <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
        </item>
     
@@ -83,8 +95,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//bessemer-gpu-nodes-removed/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-gpu-nodes-removed/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-12-21-bessemer-gpu-nodes-removed/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-12-21-bessemer-gpu-nodes-removed/</guid>
         <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -121,8 +133,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//bessemer-reboots-gpu-driver-upgr/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-02-24-bessemer-reboots-gpu-driver-upgr/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-02-24-bessemer-reboots-gpu-driver-upgr/</guid>
         <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
        </item>
     

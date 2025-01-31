@@ -7,9 +7,11 @@
        <description>HPC Changelog recent changes for tag:"<p>software</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 17 Jan 2025 10:24:58 +0000</lastBuildDate>
-       <pubDate>Fri, 17 Jan 2025 10:24:58 +0000</pubDate>
+       <lastBuildDate>Fri, 31 Jan 2025 11:40:41 +0000</lastBuildDate>
+       <pubDate>Fri, 31 Jan 2025 11:40:41 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
   
     
        <item>
@@ -17,8 +19,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//Stanage-all-package-index/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//Stanage-all-package-index/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2025-01-17-stanage-all-package-index/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2025-01-17-stanage-all-package-index/</guid>
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
        </item>
     
@@ -41,8 +43,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//nextflow-stanage-update/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//nextflow-stanage-update/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2024-03-12-nextflow-stanage-update/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2024-03-12-nextflow-stanage-update/</guid>
         <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
        </item>
     
@@ -71,8 +73,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//NAG-lib-update-sharc/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NAG-lib-update-sharc/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-08-22-nag-lib-update-sharc/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-08-22-nag-lib-update-sharc/</guid>
         <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -89,8 +91,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//matlab-bessemer-sharc/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//matlab-bessemer-sharc/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-05-12-matlab-bessemer-sharc/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-05-12-matlab-bessemer-sharc/</guid>
         <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -101,8 +103,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//SoX-Bessemer/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//SoX-Bessemer/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-04-21-sox-bessemer/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-04-21-sox-bessemer/</guid>
         <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -115,8 +117,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//DL_POLY4_PLUMED-bessemer-install-copy/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//DL_POLY4_PLUMED-bessemer-install-copy/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-04-04-dl-poly4-plumed-bessemer-install-copy/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-04-04-dl-poly4-plumed-bessemer-install-copy/</guid>
         <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -127,8 +129,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//JAGS-bessemer-install/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//JAGS-bessemer-install/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-03-24-jags-bessemer-install/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-03-24-jags-bessemer-install/</guid>
         <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -139,8 +141,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//NAG-sharc-update/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NAG-sharc-update/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-03-08-nag-sharc-update/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-03-08-nag-sharc-update/</guid>
         <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -153,8 +155,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//CUDA-cuDNN-bessemer-new-versions/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//CUDA-cuDNN-bessemer-new-versions/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-02-16-cuda-cudnn-bessemer-new-versions/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-02-16-cuda-cudnn-bessemer-new-versions/</guid>
         <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -165,8 +167,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//matlab-bessemer-sharc-new-version/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//matlab-bessemer-sharc-new-version/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-02-11-matlab-bessemer-sharc-new-version/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-02-11-matlab-bessemer-sharc-new-version/</guid>
         <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -181,8 +183,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//CmakeMake-sharc-update/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//CmakeMake-sharc-update/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-02-08-cmakemake-sharc-update/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-02-08-cmakemake-sharc-update/</guid>
         <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -195,8 +197,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//NetLogo-bessemer/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NetLogo-bessemer/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-01-25-netlogo-bessemer/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-01-25-netlogo-bessemer/</guid>
         <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -209,8 +211,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//ncdu-bessemer-sharc-install/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//ncdu-bessemer-sharc-install/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-01-07-ncdu-bessemer-sharc-install/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-01-07-ncdu-bessemer-sharc-install/</guid>
         <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -221,8 +223,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//Bowtie2-bessemer-install/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//Bowtie2-bessemer-install/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-01-04-bowtie2-bessemer-install/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-01-04-bowtie2-bessemer-install/</guid>
         <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -233,8 +235,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//STAR-bessemer-install/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//STAR-bessemer-install/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2021-12-21-star-bessemer-install/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2021-12-21-star-bessemer-install/</guid>
         <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
        </item>
     

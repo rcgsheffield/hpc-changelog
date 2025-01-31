@@ -7,9 +7,11 @@
        <description>HPC Changelog recent changes for tag:"<p>NAG</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 17 Jan 2025 10:24:58 +0000</lastBuildDate>
-       <pubDate>Fri, 17 Jan 2025 10:24:58 +0000</pubDate>
+       <lastBuildDate>Fri, 31 Jan 2025 11:40:41 +0000</lastBuildDate>
+       <pubDate>Fri, 31 Jan 2025 11:40:41 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
   
     
   
@@ -51,8 +53,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//NAG-lib-update-sharc/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NAG-lib-update-sharc/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-08-22-nag-lib-update-sharc/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-08-22-nag-lib-update-sharc/</guid>
         <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
        </item>
     
@@ -79,8 +81,8 @@
 </title>
         <description>
 </description>
-        <link>http://changelog.hpc.shef.ac.uk//NAG-sharc-update/</link>
-        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//NAG-sharc-update/</guid>
+        <link>http://changelog.hpc.shef.ac.uk//new/2022-03-08-nag-sharc-update/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2022-03-08-nag-sharc-update/</guid>
         <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
        </item>
     
