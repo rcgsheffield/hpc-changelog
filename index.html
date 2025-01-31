@@ -135,6 +135,70 @@
     <div class="col-md-10 category-New">
       
       <h3 class="title">
+        <a href="/new/2025-01-23-stanage-gpu-driver-upgrade/" class="post-date text-muted">Stanage GPU driver upgrade</a>
+      </h3>
+      
+      <div>Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a>
+        
+      </div>
+
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/H100/ rel="category tag">#H100</a>
+      
+
+      
+
+        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+          <p><strong>Starting today, Thursday the 23rd of January</strong>, the Stanage GPU nodes will begin to apply GPU driver updates from version 550.127.05, to driver version 550.144.03. This driver version will retain CUDA 12.4 capability.</p>
+
+<p>Over the weeks following, decreases in capacity for GPUs across the cluster is expected as nodes are required to be drained and rebooted. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for GPU nodes.</p>
+
+<p>Nodes undergoing maintenance and the reason for the maintenance can be seen using the following command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sinfo -R --format="%50E %N %.6t"</code></p>
+
+<p>See the following link for further formatting options of the <code class="language-plaintext highlighter-rouge">sinfo</code> command: <a href="https://slurm.schedmd.com/sinfo.html#OPT_format">https://slurm.schedmd.com/sinfo.html#OPT_format</a></p>
+
+        </div>
+    </div>
+    <div class="col-md-2 mb-2 text-end">
+      <a href="/2025/01/23" class="post-date text-muted">
+        January 23, 2025
+      </a>
+    </div>
+  </div>
+
+  
+    <hr>
+
+    <div class="row">
+    <div class="col-md-10 category-New">
+      
+      <h3 class="title">
         <a href="/new/2025-01-17-stanage-all-package-index/" class="post-date text-muted">Major HPC documentation update: New Stanage All Package Index launched!</a>
       </h3>
       
@@ -371,52 +435,6 @@ version information, dependencies for the latest version, URLs, and build log lo
     <div class="col-md-2 mb-2 text-end">
       <a href="/2024/10/29" class="post-date text-muted">
         October 29, 2024
-      </a>
-    </div>
-  </div>
-
-  
-    <hr>
-
-    <div class="row">
-    <div class="col-md-10 category-Update">
-      
-      <h3 class="title">
-        <a href="/update/2024-10-14-stanage-shared-areas-may-not-appear-visible-until-accessed/" class="post-date text-muted">Stanage shared areas may not appear visible until accessed</a>
-      </h3>
-      
-      <div>Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/update rel="category">
-          <span class="category bg-green">Update</span>        
-          </a>
-        
-      </div>
-
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
-      
-      
-      <a class="tag-link" href=/tags/shared/ rel="category tag">#shared</a>
-      
-
-      
-
-        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>As part of a change to how the Stanage cluster mounts shared areas on login nodes, it will now follow our previous HPCs settings.</p>
-
-<p>Subdirectories beneath <code class="language-plaintext highlighter-rouge">/shared</code> are now mounted on demand on the HPC systems: they may not be visible if you simply list the contents of the <code class="language-plaintext highlighter-rouge">/shared</code> directory but will be accessible if you <code class="language-plaintext highlighter-rouge">cd</code> (change directory) into a subdirectory e.g. <code class="language-plaintext highlighter-rouge">cd /shared/my_group_file_share1</code>.</p>
-
-        </div>
-    </div>
-    <div class="col-md-2 mb-2 text-end">
-      <a href="/2024/10/14" class="post-date text-muted">
-        October 14, 2024
       </a>
     </div>
   </div>

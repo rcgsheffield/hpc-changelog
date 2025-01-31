@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>maintenance</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 31 Jan 2025 11:38:51 +0000</lastBuildDate>
-       <pubDate>Fri, 31 Jan 2025 11:38:51 +0000</pubDate>
+       <lastBuildDate>Fri, 31 Jan 2025 11:49:21 +0000</lastBuildDate>
+       <pubDate>Fri, 31 Jan 2025 11:49:21 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Stanage GPU driver upgrade</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/</guid>
+        <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   
