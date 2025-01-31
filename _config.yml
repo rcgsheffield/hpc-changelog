@@ -72,7 +72,7 @@ collections:
     output: true
     permalink: tags/:path/
 
-permalink: /:title/
+permalink: /:categories/:year-:month-:day-:slug/
 markdown: kramdown
 highlighter: rouge
 
