@@ -1,15 +1,18 @@
 ---
-title:  "2025-01 Stange software update"
+title:  "Stanage software update 2025-01"
 category:  "Update"
 tags: Stanage software
 ---
 
-Icelake:
+**Icelake Installed:**
+
 GROMACS/2023.1-foss-2022a-CUDA-11.7.0
 OpenMPI/4.1.1-GCC-10.3.0
 scikit-build/0.15.0-GCCcore-11.3.0
 
-Znver3:
+
+**Znver3 Installed:**
+
 Autoconf/2.69-GCCcore-7.3.0
 Automake/1.16.1-GCCcore-7.3.0
 Autotools/20180311-GCCcore-7.3.0
@@ -63,4 +66,6 @@ UCX-CUDA/1.11.2-GCCcore-11.2.0-CUDA-11.4.1
 xorg-macros/1.19.2-GCCcore-7.3.0
 xorg-macros/1.19.3-GCCcore-11.2.0
 XZ/5.2.4-GCCcore-7.3.0
-zlib/1.2.11-GCCcore-7.3.0 
+zlib/1.2.11-GCCcore-7.3.0
+
+
