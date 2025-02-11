@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>Slurm</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Fri, 31 Jan 2025 11:49:21 +0000</lastBuildDate>
-       <pubDate>Fri, 31 Jan 2025 11:49:21 +0000</pubDate>
+       <lastBuildDate>Tue, 11 Feb 2025 11:42:42 +0000</lastBuildDate>
+       <pubDate>Tue, 11 Feb 2025 11:42:42 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Bessemer HPC system planned (non-disruptive) maintenance: Slurm scheduler upgrade - February 13, 2025 between 11:00 and 13:00</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//new/2025-02-11-bessemer-slurm-maintenance-2/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2025-02-11-bessemer-slurm-maintenance-2/</guid>
+        <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   

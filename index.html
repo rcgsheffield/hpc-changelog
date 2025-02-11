@@ -135,6 +135,79 @@
     <div class="col-md-10 category-New">
       
       <h3 class="title">
+        <a href="/new/2025-02-11-bessemer-slurm-maintenance-2/" class="post-date text-muted">Bessemer HPC system planned (non-disruptive) maintenance: Slurm scheduler upgrade - February 13, 2025 between 11:00 and 13:00</a>
+      </h3>
+      
+      <div>Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a>
+        
+      </div>
+
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/Slurm/ rel="category tag">#Slurm</a>
+      
+
+      
+
+        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+          <p>An update is required for the Slurm scheduler  (from 23.02.7 to 24.05.5) on the Bessemer HPC cluster. This maintenance is scheduled for February 13, 2025, between 11:00 to 13:00.</p>
+
+<p>While this is a significant upgrade from 23.02.7 to 24.05.5, we do not anticipate any long-term disruption to users nor any major changes to SLURM behaviour.  However, there will be very brief periods of command unavailability during the upgrade process.</p>
+
+<p>Specifically:</p>
+
+<ul>
+  <li><strong>sacct</strong> commands and other commands querying the Slurm database:
+    <ul>
+      <li>When the SLURM database service is restarting, these commands may get stuck or fail to complete.</li>
+      <li>This part of the upgrade will take approximately 60 seconds.</li>
+    </ul>
+  </li>
+  <li><strong>sbatch</strong> job submissions and <strong>sstat</strong> commands and other commands querying the Slurm controllers:
+    <ul>
+      <li>When the SLURM controllers are restarting, these commands may get stuck or fail to complete.</li>
+      <li>This part of the upgrade will take approximately 10 seconds.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When this maintenance is complete we will be in contact to confirm this is the case.</p>
+
+<p>This maintenance has been organised under change ID: C2502 072</p>
+
+        </div>
+    </div>
+    <div class="col-md-2 mb-2 text-end">
+      <a href="/2025/02/11" class="post-date text-muted">
+        February 11, 2025
+      </a>
+    </div>
+  </div>
+
+  
+    <hr>
+
+    <div class="row">
+    <div class="col-md-10 category-New">
+      
+      <h3 class="title">
         <a href="/new/2025-01-23-stanage-gpu-driver-upgrade/" class="post-date text-muted">Stanage GPU driver upgrade</a>
       </h3>
       
@@ -362,73 +435,6 @@ version information, dependencies for the latest version, URLs, and build log lo
     </p>
 </div>
 
-
-        </div>
-    </div>
-    <div class="col-md-2 mb-2 text-end">
-      <a href="/2024/10/29" class="post-date text-muted">
-        October 29, 2024
-      </a>
-    </div>
-  </div>
-
-  
-    <hr>
-
-    <div class="row">
-    <div class="col-md-10 category-Update">
-      
-      <h3 class="title">
-        <a href="/update/2024-10-29-stanage-and-bessemer-hpc-gpu-driver-updates/" class="post-date text-muted">Stanage and Bessemer GPU Driver updates - version 550.127.05 shortly available</a>
-      </h3>
-      
-      <div>Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/update rel="category">
-          <span class="category bg-green">Update</span>        
-          </a>
-        
-      </div>
-
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
-      
-      
-      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
-      
-      
-      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
-      
-      
-      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
-      
-      
-      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
-      
-      
-      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
-      
-      
-      <a class="tag-link" href=/tags/H100/ rel="category tag">#H100</a>
-      
-
-      
-
-        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p><strong>Starting on Monday the 4th of November</strong>, the Stanage and Bessemer GPU nodes will begin to apply GPU driver updates to version 550.127.05. This driver version will retain CUDA 12.4 capability.</p>
-
-<p>Over the weeks following the 4th of November, decreases in capacity for GPUs across both clusters are expected as nodes are required to be drained and rebooted. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for each cluster’s GPU nodes.</p>
-
-<p>Nodes undergoing maintenance and the reason for the maintenance can be seen using the following command:</p>
-
-<p><code class="language-plaintext highlighter-rouge">sinfo -R --format="%50E %N %.6t"</code></p>
-
-<p>See the following link for further formatting options of the <code class="language-plaintext highlighter-rouge">sinfo</code> command: <a href="https://slurm.schedmd.com/sinfo.html#OPT_format">https://slurm.schedmd.com/sinfo.html#OPT_format</a></p>
 
         </div>
     </div>

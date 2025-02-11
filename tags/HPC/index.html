@@ -15,11 +15,11 @@
 <meta property="og:url" content="http://changelog.hpc.shef.ac.uk//tags/HPC/" />
 <meta property="og:site_name" content="TUoS HPC Changelog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-01-31T11:49:21+00:00" />
+<meta property="article:published_time" content="2025-02-11T11:42:42+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hpc" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-31T11:49:21+00:00","datePublished":"2025-01-31T11:49:21+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Hpc","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/HPC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/HPC/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-11T11:42:42+00:00","datePublished":"2025-02-11T11:42:42+00:00","description":"Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.","headline":"Hpc","mainEntityOfPage":{"@type":"WebPage","@id":"http://changelog.hpc.shef.ac.uk//tags/HPC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://changelog.hpc.shef.ac.uk//assets/img/Tuos-Logo.jpg"}},"url":"http://changelog.hpc.shef.ac.uk//tags/HPC/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-icons.css"><link type="application/atom+xml" rel="alternate" href="http://changelog.hpc.shef.ac.uk//feed.xml" title="TUoS HPC Changelog" />
@@ -123,6 +123,77 @@
 </div>
 
 <div class="row">
+  
+    
+    <hr>
+    <div class="col-md-10 category-New">
+    <a href="/new/2025-02-11-bessemer-slurm-maintenance-2/" class="post-date text-muted">
+      <h2 class="title">
+        Bessemer HPC system planned (non-disruptive) maintenance: Slurm scheduler upgrade - February 13, 2025 between 11:00 and 13:00
+      </h2>
+      </a>
+      Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a></br>
+        
+      
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/HPC/ rel="category tag">#HPC</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/Slurm/ rel="category tag">#Slurm</a>
+      
+
+      
+      <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+        <p>An update is required for the Slurm scheduler  (from 23.02.7 to 24.05.5) on the Bessemer HPC cluster. This maintenance is scheduled for February 13, 2025, between 11:00 to 13:00.</p>
+
+<p>While this is a significant upgrade from 23.02.7 to 24.05.5, we do not anticipate any long-term disruption to users nor any major changes to SLURM behaviour.  However, there will be very brief periods of command unavailability during the upgrade process.</p>
+
+<p>Specifically:</p>
+
+<ul>
+  <li><strong>sacct</strong> commands and other commands querying the Slurm database:
+    <ul>
+      <li>When the SLURM database service is restarting, these commands may get stuck or fail to complete.</li>
+      <li>This part of the upgrade will take approximately 60 seconds.</li>
+    </ul>
+  </li>
+  <li><strong>sbatch</strong> job submissions and <strong>sstat</strong> commands and other commands querying the Slurm controllers:
+    <ul>
+      <li>When the SLURM controllers are restarting, these commands may get stuck or fail to complete.</li>
+      <li>This part of the upgrade will take approximately 10 seconds.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When this maintenance is complete we will be in contact to confirm this is the case.</p>
+
+<p>This maintenance has been organised under change ID: C2502 072</p>
+
+      </div><br>
+    </div>
+
+
+      <div class="col-md-2 mb-2 text-end">
+        <a href="/2025/02/11" class="post-date text-muted">
+          February 11, 2025
+        </a>
+      </div>
+    
   
     
   

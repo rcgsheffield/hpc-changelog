@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://changelog.hpc.shef.ac.uk//feed.xml" rel="self" type="application/atom+xml" /><link href="http://changelog.hpc.shef.ac.uk//" rel="alternate" type="text/html" /><updated>2025-01-31T11:49:21+00:00</updated><id>http://changelog.hpc.shef.ac.uk//feed.xml</id><title type="html">TUoS HPC Changelog</title><subtitle>Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.</subtitle><entry><title type="html">Stanage GPU driver upgrade</title><link href="http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/" rel="alternate" type="text/html" title="Stanage GPU driver upgrade" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-01-23T00:00:00+00:00</updated><id>http://changelog.hpc.shef.ac.uk//new/stanage-gpu-driver-upgrade</id><content type="html" xml:base="http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/"><![CDATA[<p><strong>Starting today, Thursday the 23rd of January</strong>, the Stanage GPU nodes will begin to apply GPU driver updates from version 550.127.05, to driver version 550.144.03. This driver version will retain CUDA 12.4 capability.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://changelog.hpc.shef.ac.uk//feed.xml" rel="self" type="application/atom+xml" /><link href="http://changelog.hpc.shef.ac.uk//" rel="alternate" type="text/html" /><updated>2025-02-11T11:42:42+00:00</updated><id>http://changelog.hpc.shef.ac.uk//feed.xml</id><title type="html">TUoS HPC Changelog</title><subtitle>Keep yourself up to date with recent changes on the University of Sheffield HPC clusters.</subtitle><entry><title type="html">Bessemer HPC system planned (non-disruptive) maintenance: Slurm scheduler upgrade - February 13, 2025 between 11:00 and 13:00</title><link href="http://changelog.hpc.shef.ac.uk//new/2025-02-11-bessemer-slurm-maintenance-2/" rel="alternate" type="text/html" title="Bessemer HPC system planned (non-disruptive) maintenance: Slurm scheduler upgrade - February 13, 2025 between 11:00 and 13:00" /><published>2025-02-11T00:00:00+00:00</published><updated>2025-02-11T00:00:00+00:00</updated><id>http://changelog.hpc.shef.ac.uk//new/bessemer-slurm-maintenance-2</id><content type="html" xml:base="http://changelog.hpc.shef.ac.uk//new/2025-02-11-bessemer-slurm-maintenance-2/"><![CDATA[<p>An update is required for the Slurm scheduler  (from 23.02.7 to 24.05.5) on the Bessemer HPC cluster. This maintenance is scheduled for February 13, 2025, between 11:00 to 13:00.</p>
+
+<p>While this is a significant upgrade from 23.02.7 to 24.05.5, we do not anticipate any long-term disruption to users nor any major changes to SLURM behaviour.  However, there will be very brief periods of command unavailability during the upgrade process.</p>
+
+<p>Specifically:</p>
+
+<ul>
+  <li><strong>sacct</strong> commands and other commands querying the Slurm database:
+    <ul>
+      <li>When the SLURM database service is restarting, these commands may get stuck or fail to complete.</li>
+      <li>This part of the upgrade will take approximately 60 seconds.</li>
+    </ul>
+  </li>
+  <li><strong>sbatch</strong> job submissions and <strong>sstat</strong> commands and other commands querying the Slurm controllers:
+    <ul>
+      <li>When the SLURM controllers are restarting, these commands may get stuck or fail to complete.</li>
+      <li>This part of the upgrade will take approximately 10 seconds.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When this maintenance is complete we will be in contact to confirm this is the case.</p>
+
+<p>This maintenance has been organised under change ID: C2502 072</p>]]></content><author><name></name></author><category term="New" /><category term="Bessemer" /><category term="HPC" /><category term="maintenance" /><category term="Slurm" /><summary type="html"><![CDATA[An update is required for the Slurm scheduler (from 23.02.7 to 24.05.5) on the Bessemer HPC cluster. This maintenance is scheduled for February 13, 2025, between 11:00 to 13:00.]]></summary></entry><entry><title type="html">Stanage GPU driver upgrade</title><link href="http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/" rel="alternate" type="text/html" title="Stanage GPU driver upgrade" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-01-23T00:00:00+00:00</updated><id>http://changelog.hpc.shef.ac.uk//new/stanage-gpu-driver-upgrade</id><content type="html" xml:base="http://changelog.hpc.shef.ac.uk//new/2025-01-23-stanage-gpu-driver-upgrade/"><![CDATA[<p><strong>Starting today, Thursday the 23rd of January</strong>, the Stanage GPU nodes will begin to apply GPU driver updates from version 550.127.05, to driver version 550.144.03. This driver version will retain CUDA 12.4 capability.</p>
 
 <p>Over the weeks following, decreases in capacity for GPUs across the cluster is expected as nodes are required to be drained and rebooted. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for GPU nodes.</p>
 
@@ -68,24 +91,4 @@ version information, dependencies for the latest version, URLs, and build log lo
 
 <p>The updated documentation can be found at:</p>
 
-<p><a href="https://docs.hpc.shef.ac.uk/en/latest/stanage/software/apps/nextflow.html">https://docs.hpc.shef.ac.uk/en/latest/stanage/software/apps/nextflow.html</a></p>]]></content><author><name></name></author><category term="New" /><category term="Nextflow" /><category term="Stanage" /><category term="software" /><category term="update" /><summary type="html"><![CDATA[Version 23.10.0 of the software Nextflow has been installed on Stanage.]]></summary></entry><entry><title type="html">Temporary loss of Stanage and Bessemer HPC connectivity on January 17th 2024</title><link href="http://changelog.hpc.shef.ac.uk//new/2024-01-10-temporary-network-disruption/" rel="alternate" type="text/html" title="Temporary loss of Stanage and Bessemer HPC connectivity on January 17th 2024" /><published>2024-01-10T00:00:00+00:00</published><updated>2024-01-10T00:00:00+00:00</updated><id>http://changelog.hpc.shef.ac.uk//new/temporary-network-disruption</id><content type="html" xml:base="http://changelog.hpc.shef.ac.uk//new/2024-01-10-temporary-network-disruption/"><![CDATA[<p>Due to scheduled network upgrades on January 17th, there will be some short losses of network connectivity to our HPC systems with disruption to external access (between 09:30 - 12:00) and some supporting services (between 09:30 and 15:30).</p>
-
-<p>Note: As this will be brief network disruption, users may experience little to no outages or disruption when connecting via SSH / transferring files however, you may experience:</p>
-
-<ul>
-  <li>Hung/terminated SSH sessions to login nodes.</li>
-  <li>Hung/terminated SCP/SFTP/rsync file transfers to/from login nodes (although rsync may be able to resume from where it left off if then (re)invoked in the right way.)</li>
-  <li>Hung access to / file transfers to/from ‘/shared’ storage areas on Stanage login nodes and Bessemer login and worker nodes (depending on which /shared area you’re accessing).  These connections should automatically resume without the need for any intervention.</li>
-</ul>
-
-<p>If your jobs require access to Sheffield remote shared storage or require network access to start up correctly, you should hold your jobs during the maintenance period, then release them after the maintenance with the following commands for specific job IDs:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol hold &lt;job ID&gt;
-scontrol release &lt;job ID&gt;
-</code></pre></div></div>
-
-<p>If you want to hold and release all of your pending jobs, you can do so with the commands:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol hold {}
-squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol release {}
-</code></pre></div></div>]]></content><author><name></name></author><category term="New" /><category term="Stanage" /><category term="Bessemer" /><category term="maintenance" /><summary type="html"><![CDATA[Due to scheduled network upgrades on January 17th, there will be some short losses of network connectivity to our HPC systems with disruption to external access (between 09:30 - 12:00) and some supporting services (between 09:30 and 15:30).]]></summary></entry></feed>
+<p><a href="https://docs.hpc.shef.ac.uk/en/latest/stanage/software/apps/nextflow.html">https://docs.hpc.shef.ac.uk/en/latest/stanage/software/apps/nextflow.html</a></p>]]></content><author><name></name></author><category term="New" /><category term="Nextflow" /><category term="Stanage" /><category term="software" /><category term="update" /><summary type="html"><![CDATA[Version 23.10.0 of the software Nextflow has been installed on Stanage.]]></summary></entry></feed>

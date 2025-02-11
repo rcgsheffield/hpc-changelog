@@ -136,6 +136,73 @@
     <div class="col-md-10 category-Update">
       
       <h3 class="title">
+        <a href="/update/2024-10-29-stanage-and-bessemer-hpc-gpu-driver-updates/" class="post-date text-muted">Stanage and Bessemer GPU Driver updates - version 550.127.05 shortly available</a>
+      </h3>
+      
+      <div>Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/update rel="category">
+          <span class="category bg-green">Update</span>        
+          </a>
+        
+      </div>
+
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/H100/ rel="category tag">#H100</a>
+      
+
+      
+
+        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+          <p><strong>Starting on Monday the 4th of November</strong>, the Stanage and Bessemer GPU nodes will begin to apply GPU driver updates to version 550.127.05. This driver version will retain CUDA 12.4 capability.</p>
+
+<p>Over the weeks following the 4th of November, decreases in capacity for GPUs across both clusters are expected as nodes are required to be drained and rebooted. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for each cluster’s GPU nodes.</p>
+
+<p>Nodes undergoing maintenance and the reason for the maintenance can be seen using the following command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sinfo -R --format="%50E %N %.6t"</code></p>
+
+<p>See the following link for further formatting options of the <code class="language-plaintext highlighter-rouge">sinfo</code> command: <a href="https://slurm.schedmd.com/sinfo.html#OPT_format">https://slurm.schedmd.com/sinfo.html#OPT_format</a></p>
+
+        </div>
+    </div>
+    <div class="col-md-2 mb-2 text-end">
+      <a href="/2024/10/29" class="post-date text-muted">
+        October 29, 2024
+      </a>
+    </div>
+  </div>
+
+  
+    <hr>
+
+    <div class="row">
+    <div class="col-md-10 category-Update">
+      
+      <h3 class="title">
         <a href="/update/2024-10-14-stanage-shared-areas-may-not-appear-visible-until-accessed/" class="post-date text-muted">Stanage shared areas may not appear visible until accessed</a>
       </h3>
       
@@ -338,73 +405,6 @@
     <div class="col-md-2 mb-2 text-end">
       <a href="/2024/03/12" class="post-date text-muted">
         March 12, 2024
-      </a>
-    </div>
-  </div>
-
-  
-    <hr>
-
-    <div class="row">
-    <div class="col-md-10 category-New">
-      
-      <h3 class="title">
-        <a href="/new/2024-01-10-temporary-network-disruption/" class="post-date text-muted">Temporary loss of Stanage and Bessemer HPC connectivity on January 17th 2024</a>
-      </h3>
-      
-      <div>Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
-          <span class="category bg-blue">New</span>        
-          </a>
-        
-      </div>
-
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
-      
-      
-      <a class="tag-link" href=/tags/Bessemer/ rel="category tag">#Bessemer</a>
-      
-      
-      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
-      
-
-      
-
-        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>Due to scheduled network upgrades on January 17th, there will be some short losses of network connectivity to our HPC systems with disruption to external access (between 09:30 - 12:00) and some supporting services (between 09:30 and 15:30).</p>
-
-<p>Note: As this will be brief network disruption, users may experience little to no outages or disruption when connecting via SSH / transferring files however, you may experience:</p>
-
-<ul>
-  <li>Hung/terminated SSH sessions to login nodes.</li>
-  <li>Hung/terminated SCP/SFTP/rsync file transfers to/from login nodes (although rsync may be able to resume from where it left off if then (re)invoked in the right way.)</li>
-  <li>Hung access to / file transfers to/from ‘/shared’ storage areas on Stanage login nodes and Bessemer login and worker nodes (depending on which /shared area you’re accessing).  These connections should automatically resume without the need for any intervention.</li>
-</ul>
-
-<p>If your jobs require access to Sheffield remote shared storage or require network access to start up correctly, you should hold your jobs during the maintenance period, then release them after the maintenance with the following commands for specific job IDs:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol hold &lt;job ID&gt;
-scontrol release &lt;job ID&gt;
-</code></pre></div></div>
-
-<p>If you want to hold and release all of your pending jobs, you can do so with the commands:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol hold {}
-squeue --me --noheader -t PD --format="%A" | xargs -n 1 -I {} scontrol release {}
-</code></pre></div></div>
-
-        </div>
-    </div>
-    <div class="col-md-2 mb-2 text-end">
-      <a href="/2024/01/10" class="post-date text-muted">
-        January 10, 2024
       </a>
     </div>
   </div>
