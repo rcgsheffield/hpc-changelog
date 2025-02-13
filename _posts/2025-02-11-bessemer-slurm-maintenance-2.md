@@ -20,3 +20,5 @@ Specifically:
 When this maintenance is complete we will be in contact to confirm this is the case.
 
 This maintenance has been organised under change ID: C2502 072
+
+Update: This maintenance completed without issue.
