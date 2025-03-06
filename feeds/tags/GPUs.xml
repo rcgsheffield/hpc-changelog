@@ -7,9 +7,21 @@
        <description>HPC Changelog recent changes for tag:"<p>GPUs</p>
 " </description>
        <link>http://changelog.hpc.shef.ac.uk/</link>
-       <lastBuildDate>Thu, 13 Feb 2025 15:14:39 +0000</lastBuildDate>
-       <pubDate>Thu, 13 Feb 2025 15:14:39 +0000</pubDate>
+       <lastBuildDate>Thu, 06 Mar 2025 15:26:46 +0000</lastBuildDate>
+       <pubDate>Thu, 06 Mar 2025 15:26:46 +0000</pubDate>
        <ttl>7200</ttl>
+  
+    
+       <item>
+        <title><p>Stanage cluster operating system and firmware upgrades</p>
+</title>
+        <description>
+</description>
+        <link>http://changelog.hpc.shef.ac.uk//new/2025-03-06-stanage-operating-system-and-firmware-upgrades/</link>
+        <guid isPermaLink="true">http://changelog.hpc.shef.ac.uk//new/2025-03-06-stanage-operating-system-and-firmware-upgrades/</guid>
+        <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+       </item>
+    
   
     
   

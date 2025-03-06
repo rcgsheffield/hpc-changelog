@@ -135,6 +135,70 @@
     <div class="col-md-10 category-New">
       
       <h3 class="title">
+        <a href="/new/2025-03-06-stanage-operating-system-and-firmware-upgrades/" class="post-date text-muted">Stanage cluster operating system and firmware upgrades</a>
+      </h3>
+      
+      <div>Type: 
+        
+
+          
+          <a style="text-decoration: none;" class="category-link" href=/category/new rel="category">
+          <span class="category bg-blue">New</span>        
+          </a>
+        
+      </div>
+
+
+      Tags:
+      
+      
+      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
+      
+      
+      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
+      
+      
+      <a class="tag-link" href=/tags/GPUs/ rel="category tag">#GPUs</a>
+      
+      
+      <a class="tag-link" href=/tags/GPU/ rel="category tag">#GPU</a>
+      
+      
+      <a class="tag-link" href=/tags/A100/ rel="category tag">#A100</a>
+      
+      
+      <a class="tag-link" href=/tags/H100/ rel="category tag">#H100</a>
+      
+
+      
+
+        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
+          <p><strong>Starting today, Thursday the 6th of March</strong>, the Stanage HPC nodes (including GPU nodes) will start to drain of jobs in order to reboot and apply operating system, kernel and omnipath network card updates.</p>
+
+<p>Over the weeks following, decreases in capacity across the cluster is expected. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for all nodes.</p>
+
+<p>Nodes undergoing maintenance and the reason for the maintenance can be seen using the following command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sinfo -R --format="%50E %N %.6t"</code></p>
+
+<p>See the following link for further formatting options of the <code class="language-plaintext highlighter-rouge">sinfo</code> command: <a href="https://slurm.schedmd.com/sinfo.html#OPT_format">https://slurm.schedmd.com/sinfo.html#OPT_format</a></p>
+
+        </div>
+    </div>
+    <div class="col-md-2 mb-2 text-end">
+      <a href="/2025/03/06" class="post-date text-muted">
+        March 06, 2025
+      </a>
+    </div>
+  </div>
+
+  
+    <hr>
+
+    <div class="row">
+    <div class="col-md-10 category-New">
+      
+      <h3 class="title">
         <a href="/new/2025-02-11-bessemer-slurm-maintenance-2/" class="post-date text-muted">Bessemer HPC system planned (non-disruptive) maintenance: Slurm scheduler upgrade - February 13, 2025 between 11:00 and 13:00</a>
       </h3>
       
@@ -387,62 +451,6 @@ version information, dependencies for the latest version, URLs, and build log lo
     <div class="col-md-2 mb-2 text-end">
       <a href="/2025/01/16" class="post-date text-muted">
         January 16, 2025
-      </a>
-    </div>
-  </div>
-
-  
-    <hr>
-
-    <div class="row">
-    <div class="col-md-10 category-Improvement">
-      
-      <h3 class="title">
-        <a href="/improvement/2024-10-29-stanage-central-software-storage-volume-nonn-disruptive-maintenance/" class="post-date text-muted">Stanage central software storage volume non-disruptive maintenance</a>
-      </h3>
-      
-      <div>Type: 
-        
-
-          
-          <a style="text-decoration: none;" class="category-link" href=/category/improvement rel="category">
-          <span class="category bg-purple">Improvement</span>        
-          </a>
-        
-      </div>
-
-
-      Tags:
-      
-      
-      <a class="tag-link" href=/tags/Stanage/ rel="category tag">#Stanage</a>
-      
-      
-      <a class="tag-link" href=/tags/maintenance/ rel="category tag">#maintenance</a>
-      
-
-      
-
-        <div class="post-content my-4 text-grey-darker leading-normal text-base font-thin">
-          <p>The storage volume used to provide the centrally provided software for users on Stanage is nearly full. Maintenance work to increase the capacity of this area is scheduled for <strong>November 5th between 10am and 11:30am</strong>.</p>
-
-<p>This work is atypical and is expected to be non-disruptive to users and jobs on the cluster. Even so, during this period all jobs and interactive sessions using centrally provided software on Stanage should be considered at risk.</p>
-
-<hr />
-
-<div class="admonition warning rounded">
-    <p class="admonition-title">Rescheduled maintenance</p>
-    <p>
-        Note: This work has been rescheduled to <b> November 6th between 10am and 11:30am</b>  due to unexpected issues.
-    </p>
-</div>
-
-
-        </div>
-    </div>
-    <div class="col-md-2 mb-2 text-end">
-      <a href="/2024/10/29" class="post-date text-muted">
-        October 29, 2024
       </a>
     </div>
   </div>
