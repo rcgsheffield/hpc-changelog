@@ -4,7 +4,7 @@ category: New
 tags: Stanage maintenance GPUs GPU A100 H100
 ---
 
-**Starting today, Thursday the 6th of March**, the Stanage HPC nodes (including GPUs) will start to drain of jobs in order to reboot and apply operating system, kernel and omnipath network card updates.
+**Starting today, Thursday the 6th of March**, the Stanage HPC nodes (including GPU nodes) will start to drain of jobs in order to reboot and apply operating system, kernel and omnipath network card updates.
 
 Over the weeks following, decreases in capacity across the cluster is expected. The decreases in capacity are being mitigated by staggered drainage and reboot cycles for all nodes.
 
