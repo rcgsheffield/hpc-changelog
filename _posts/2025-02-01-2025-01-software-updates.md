@@ -4,6 +4,13 @@ category:  "Update"
 tags: Stanage software
 ---
 
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#softwareUpdate">
+  Show Software Update Details
+</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<div id="softwareUpdate" class="collapse">
+<div markdown="1">
 **Icelake Installed:**
 ```
 GROMACS/2023.1-foss-2022a-CUDA-11.7.0
@@ -68,4 +75,5 @@ xorg-macros/1.19.3-GCCcore-11.2.0
 XZ/5.2.4-GCCcore-7.3.0
 zlib/1.2.11-GCCcore-7.3.0
 ```
-
+</div>
+</div>
