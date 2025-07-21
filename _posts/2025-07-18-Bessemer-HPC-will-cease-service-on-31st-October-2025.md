@@ -8,7 +8,7 @@ This is an early notification that Bessemer will cease service at end of day on 
 
 **Action Required:**
 
-Transfer all needed data from ``/home`` and ``/fastdata`` to Stanage.
+Transfer all needed data from ``/home`` and ``/fastdata`` to Stanage or to your research storage (see below).
 
 Check if your required software is available on Stanage — raise a ticket if not.
 
